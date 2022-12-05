@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(100 20 20), rgb(20 100 20), rgb(20 20 100));
+    position: justify;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
