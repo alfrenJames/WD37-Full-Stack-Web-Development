@@ -1,1 +1,34 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.o">
+
+    <title>Flappy Coin using &#8220;HTML-JS&#8221;</title>
+
+    <style> 
+        canvas{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h3>flappyCoin <img src="../flippyCoinGame/image/coin.png" alt="coin"></h3>
+    <canvas id="canvas" width="288" height="512"></canvas>
+    <script src="..//flippyCoinGame/flappyCoin.js"></script>
+
+
+
+</body>
+
+
+</html>
