@@ -1,0 +1,25 @@
+.header{
+    background-color: green;
+}
+.text{
+    background-color:red;
+}
+.list{
+    background-color: blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+tr,th,td{
+    border: 1px solid black;
+}
+tr{
+    background-color: aquamarine;
+    color: red;
+}
+th{
+    background-color: yellow;
+    color: black;
+}
