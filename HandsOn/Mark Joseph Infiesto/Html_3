@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+    <body>
+        <h1 align="center">Table</h1>
+        <table background-color="black">
+            <thead>
+                <tr bgcolor="grey" align="center">
+                    <th width="100">First Name</th>
+                    <th width="100">Last Name</th>
+                    <th width="100">Address</th>
+                    <th width="100">City</th>
+                    <th width="100">Age</th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr bgcolor="white" align="center" >
+                    <td>Mickey</td>
+                    <td>Mouse</td>
+                    <td>123 Fantasy Way</td>
+                    <td>Anaheim</td>
+                    <td>73</td>
+                </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Bat</td>
+                    <td>Man</td>
+                    <td>321 Cavern Ave</td>
+                    <td>Gotham</td>
+                    <td>54</td>
+                </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Wonder</td>
+                    <td>Woman</td>
+                    <td>987 Truth Way</td>
+                    <td>Paradise</td>
+                    <td>39</td>
+                </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Donald</td>
+                    <td>Duck</td>
+                    <td>555 Quack Street</td>
+                    <td>Mallard</td>
+                    <td>65</td>
+                </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Bugs</td>
+                    <td>Bunny</td>
+                    <td>567 Carrot Street</td>
+                    <td>Rascal</td>
+                    <td>58</td>
+                </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Wiley</td>
+                    <td>Coyote</td>
+                    <td>999 Acme Way</td>
+                    <td>Canyon</td>
+                    <td>61</td>
+                </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Cat</td>
+                    <td>Woman</td>
+                    <td>234 Purrfect Street</td>
+                    <td>Hairball</td>
+                    <td>22</td>
+                    </tr>
+                <tr bgcolor="white" align="center">
+                    <td>Tweety</td>
+                    <td>Bird</td>
+                    <td>543</td>
+                    <td>Itotlaw</td>
+                    <td>28</td>
+                </tr>
+        </tbody>
+        </table>
+        <br/>
+        <br/>
+        <br/>
+            <div class="List">
+            <table background-color="black">
+                <thead>
+                    <tr bgcolor="grey" align="center">
+                        <th width="100">First Name</th>
+                        <th width="100">Last Name</th>
+                        <th width="100">Address</th>
+                        <th width="100">City</th>
+                        <th width="100">Age</th>
+                        <td>Image</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr bgcolor="white" align="center" >
+                            <td>Mickey</td>
+                            <td>Mouse</td>
+                            <td>123 Fantasy Way</td>
+                            <td>Anaheim</td>
+                            <td>73</td>
+                    <td><img src="./a.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center">
+                            <td>Bat</td>
+                            <td>Man</td>
+                            <td>321 Cavern Ave</td>
+                            <td>Gotham</td>
+                            <td>54</td>
+                    <td><img src="./b.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center" ></tr>
+                            <td>Wonder</td>
+                            <td>Woman</td>
+                            <td>987 Truth Way</td>
+                            <td>Paradise</td>
+                            <td>39</td>
+                    <td><img src="./c.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center">
+                            <td>Donald</td>
+                            <td>Duck</td>
+                            <td>555 Quack Street</td>
+                            <td>Mallard</td>
+                            <td>65</td>
+                    <td><img src="./d.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center">
+                            <td>Bugs</td>
+                            <td>Bunny</td>
+                            <td>567 Carrot Street</td>
+                            <td>Rascal</td>
+                            <td>58</td>
+                    <td><img src="./e.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center">
+                            <td>Wiley</td>
+                            <td>Coyote</td>
+                            <td>999 Acme Way</td>
+                            <td>Canyon</td>
+                            <td>61</td>
+                    <td><img src="./f.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center">
+                            <td>Cat</td>
+                            <td>Woman</td>
+                            <td>234 Purrfect Street</td>
+                            <td>Hairball</td>
+                            <td>22</td>
+                    <td><img src="./g.png" height="35px" width="35px" alt=""></td>
+                    </tr>
+                        <tr bgcolor="white" align="center">
+                            <td>Tweety</td>
+                            <td>Bird</td>
+                            <td>543</td>
+                            <td>Itotlaw</td>
+                            <td>28</td>
+                    <td><img src="./h.png" height="35px" width="35px" alt=""></td>  
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <class="List">
+        <h1> MY TOP 3 RESTAURANT</h1>  
+    <ol>
+        <li><a href="https://www.jollibeefoods.com/">Jollibeefoods</a></li>
+        <li><a href="https://www.manginasal.com/">Manginasal</a></li>
+        <li><a href="https://www.mcdonalds.com.ph/">Mcdonalds</a></li>
+    </ol>  
+    <ul>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+        <li>Yellow</li>
+        <li>Orange</li>
+    </ul>
+    <div class="article" align="center">
+        <h1>Article</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus perspiciatis sunt cumque rerum facere dolores, iusto odit? Iure minus soluta quo, delectus aut similique odio quae voluptas a vitae reprehenderit tempore accusantium. Asperiores, hic fugit. Necessitatibus provident, eum repellat, temporibus voluptatum nisi nulla voluptatibus cum optio adipisci quo autem. Magni minima quidem itaque expedita dicta quaerat, debitis aperiam sequi nisi eius commodi doloribus dolore iure facilis est consectetur consequatur labore! Saepe omnis provident neque iusto non laboriosam placeat dolorem illum facere molestias, eveniet, corporis, architecto maxime consequatur quaerat velit! Tenetur earum numquam ex corporis quos placeat nulla illo expedita.</p>
+    </div>
+    <br/>
+    <div class="Maps"></div>
+    <h1>Map</h1>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=dagat%20dagatan%20caloocan%20city&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">adding google maps to website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+    </div>
+    <div class="videos">
+        <h1>Video</h1>
+        <video width="500" height="500" controls autoplay muted loop>
+            <source src="./videos/Bruno Mars - Grenade (Official Music Video).mp4" type="video/mp4"/>
+            Your Browser does not support the video tag.
+           </video>
+    </div>
+        <div style="margin-top: 1000px"></div>
+    </body>
+</html>
