@@ -1,0 +1,77 @@
+@font-face 
+{
+    src: url(Fonts/CHOWFUN.TTF) format("truetype");
+    font-family: 'chow';
+}
+@font-face 
+{
+    src: url(Fonts/mclawsui.ttf) format("truetype");
+    font-family: 'mc';
+}
+@font-face 
+{
+    src: url(Fonts/ROGERS.TTF) format("truetype");
+    font-family: 'ro';
+}
+.Chowking
+{
+    font-family: chow;
+}
+
+.MC
+{
+    font-family: mc;
+}
+
+.Kenny
+{
+    font-family: ro;
+}
+
+/*for Table 1*/
+.table1
+{
+    border-collapse:collapse;
+    width: 40%;
+    
+}
+
+.Tblthtr th
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(63, 192, 224, 0.979) ;
+    text-align: left;
+    color:rgb(243, 243, 247);
+
+}
+
+/*for Table 2*/
+.table2
+{
+    border-collapse:collapse;
+    width: 45%;
+}  
+
+.Tblthtr2 th
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(52, 100, 202, 0.979) ;
+    text-align: left;
+    color:rgb(243, 243, 247);
+}
+
+/*for table 1&2 (Background color of text and hover)*/
+
+td
+{
+    padding: 10px;
+    text-align: left;
+}
+
+#hover1 tr:nth-last-child(even){background-color: #f2f2f2;}
+#hover2 tr:nth-child(even){background-color: #f2f2f2;}
+#hover1 tr:hover {background-color: #ddd;}
+#hover2 tr:hover {background-color: #ddd;}
+   
