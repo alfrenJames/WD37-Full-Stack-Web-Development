@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+div.container{
+    width: 950px;
+    min-height: 300px;
+    background-color: grey;
+    margin:0px auto;
+    padding: 20px;
+    border:10px solid;
+}
+    div.container div.header{
+        min-height: 150px;
+        width: 900px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        background-color: green;
+    }
+    div.container div.sideNav{
+        min-height: 400px;
+        width: 180px;
+        background-color: blue;
+        display: inline-block;
+        margin: 0px 24px 20px;
+        vertical-align: top;
+    }
+    div.container div.mainContent{
+        min-height: 400px;
+        width: 693px;
+        background-color: red;
+        display: inline-block;   
+    }
+        div.container div.mainContent div.subContents{
+            min-height: 180px;
+            width: 190px;
+            background-color: blueviolet;
+            border: 1px solid;
+            display: inline-block;
+            margin-left: 28px;
+            margin-top: 20px;
+        }
+        div.container div.mainContent div.advertisement{
+            min-height: 120px;
+            width: 642px;
+            background-color: black;
+            margin-top: 10px;
+            margin-left: 28px;
+        }
