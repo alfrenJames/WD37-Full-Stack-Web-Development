@@ -28,3 +28,195 @@
     <script src="src/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="src/r.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign-Up</h1>
+        <form action="#">
+            <label for="firstname">First Name:</label>
+            <input type="firstname" placeholder="">
+            <br>
+            <br>
+            <label for="middlename">Middle Name:</label>
+            <input type="middlename" placeholder="">
+            <br>
+            <br>
+            <label for="firstname">Last Name:</label>
+            <input type="lastname" placeholder="">
+            <br>
+            <br>
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="" required>
+            <br>
+            <br>
+            <label for="contact number">Contact number:</label>
+            <input type="text" required>
+            <br>
+            <br>
+            <label for="city">City</label>
+            <select>
+                <option value="">Manila</option>
+                <option value="">Cebu</option>
+                <option value="">Davao</option>
+            </select><br><br>
+            <label for="preferredContactTime">Preferred Contact Time:</label><br>
+            <input type="checkbox" required><label>Morning</label><br>
+                        <input type="checkbox" required><label>Afternoon</label><br>
+                        <input type="checkbox" required><label>Evening</label><br><br>
+            <input type="submit" value="Register" id="registerbtn" onclick="showAlertMessage()">
+            <a href="index.html">Go back</a>
+        </form>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="forgot password">Hide </h1>
+            <div action="" id="Email or mobile number">
+            <label for="">Old password</label>
+            <input type="text" class="form_text" autofocus placeholder="Old Password" required><br> <br>
+            <label for="">New password</label>
+            <input type="password" class="form_password" placeholder="Password" required><br>
+            <input type="submit" value="Continue" onclick="continueMessage()"><br>
+        </form>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- CSS -->
+
+
+
+
+
+body{
+    /* margin: 0; */
+    background-image: url("/src/image/33.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 55%;
+    height: 75%;
+}
+div.container {
+    width: 400px;
+    height: 90vh;
+    margin: 0px auto;
+    border: 2px solid;
+    justify-content: center;
+} 
+    div.container h1{
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        width: auto;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color: white;
+        font-size: 50px;
+    }
+    div.container label, div.container input{
+        display: block;
+        margin-left: 25%;
+        margin-top: 5px;
+        font-size: 15px;
+        color: grey;
+    }
+
+    div.box{
+        box-sizing: border-box;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    body{
+    background-color: coral;
+}
+div.container{
+    width: 400px;
+    height: 90vh;
+    margin: 0px auto;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+}
+label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+function Login(){
+    alert("Login Successful");
+}
+
+function continueMessage(){
+    alert("Password reset was successful");
+}
+
