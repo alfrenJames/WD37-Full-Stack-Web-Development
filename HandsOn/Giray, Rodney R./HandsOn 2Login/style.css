@@ -1,0 +1,82 @@
+body
+{
+    background-color:wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container
+{   
+    background-color: whitesmoke;
+    color:rgb(5, 5, 5);
+    width: 330px;
+    height: 200px;
+    padding: 20px 20px 20px 20px;
+    margin-right:180px;
+    box-shadow: 9px 10px 20px 0px rgb(107, 107, 107);
+    
+}
+
+.container2
+{
+    background-color: whitesmoke;
+    color:rgb(5, 5, 5);
+    width: 330px;
+    height: 200px;
+    padding: 20px 20px 20px 20px;
+    margin-right:70px;
+    box-shadow: 9px 10px 20px 0px rgb(107, 107, 107);
+    
+}
+    
+    .container .link
+    {
+        color:rgb(141, 231, 39);
+        margin: -17px 200px 13px 200px;
+        
+    }
+
+    h2
+    {
+        color: rgb(53, 49, 49);
+        text-align:center;
+    }
+
+    .input
+    {
+        width: 350px;
+        height: 40px;
+        font-size: 16px;
+        
+    }
+
+ 
+    .container .onclick
+    {
+        margin: 10px 0px 0px 65px;
+        display: inline-block;
+        box-shadow: 3px 3px 5px 1px;
+
+    } 
+
+    .container .remember
+    {
+        margin-left: 64px;
+    }
+    
+    .submit
+    {
+        margin:30px 0px 0px 150px;
+        display: inline-block;
+        box-shadow: 3px 3px 5px 1px;
+    }
+
+
+    .container form, label
+    {
+        flex-basis: 130px;
+
+    }

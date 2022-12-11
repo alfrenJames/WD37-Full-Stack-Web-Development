@@ -1,0 +1,35 @@
+
+body
+{
+    background-color: wheat;
+    
+}
+    .container
+    {
+        background-color: whitesmoke;
+        color:rgb(0, 0, 0);
+        width: 350px;
+        height: 500px;
+        margin: 0px auto;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 9px 10px 20px 0px rgb(107, 107, 107);
+        display:flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .reg
+    {
+        margin:50px;
+    }
+
+    .container form, label
+    {
+        flex-basis: 130px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+
+  
+  

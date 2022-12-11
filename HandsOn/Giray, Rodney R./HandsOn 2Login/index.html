@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+            <div class="input">
+                <label for="userName">Username:</label>
+                <input type="text" id="userName" required>
+            </div>
+             <div class= "input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+             </div>
+             <div class ="remember">
+                <input type="checkbox" id="checkbox">
+                <label for="Remember me">Remember me</label>
+             </div>
+             <div>
+                <button class="onclick" onclick="showLoginMessage()">Login</button>
+             </div>
+                <div class ="link">
+                    <a href="/HandsOn 2Login/Register/register.html" target="register.html">Register</a>
+                </div>
+        </form>    
+    </div>
+    <div class="container2">
+        <h2>Reset Password</h2>
+        <form>
+            <div class="input">
+                <label for="old">Old password:</label>
+                <input type="pasword" id="old" required>
+            </div>
+            <div>
+                <label for="new">New password:</label>
+                <input type="password" id="new" required>
+            </div>
+            <div class="submit">
+                <button onclick="showLoginMessage2()">Submit</button>
+            </div>
+        </form>
+    </div>      
+</body> 
+<script>
+    function showLoginMessage()
+    {
+        alert("Login successful");
+    }
+    function showLoginMessage2()
+    {
+        alert("Password reset was successful")
+    }
+</script>
+</html>

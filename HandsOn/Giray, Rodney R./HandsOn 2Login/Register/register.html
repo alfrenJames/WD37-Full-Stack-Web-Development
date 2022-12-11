@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HandsOn 2Login/Register/registerStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <label for="firstName">Firstname:</label>
+                <input type="text" id="firstName" required>
+            </div>
+            <div>
+                <label for="middleName">Middlename:</label>
+                <input type="text" id="middleName">
+            </div>
+            <div>
+                <label for="lastName">Lastname:</label>
+                <input type="text" id="lastName" required>
+            </div>
+            <div>
+                <label for="birdDate">Birthdate:</label>
+                <input type="date" id="birthDate" required>
+            </div>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div>
+                <label for="contactNumber" id="contactNumber">Contact Number:</label>
+                <input type="text" id="contactNumber" required>
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="">Select City</option>
+                    <option value="Manila">Manila</option>
+                    <option value="Bulacan">Bulacan</option>
+                    <option value="Pasig">Pasig</option>
+                    <option value="Quezon">Quezon</option>
+                    <option value="Davao">Davao</option>
+                    <option value="Sna Juan">San Juan</option>
+                    <option value="Calaca">Calaca</option>
+                    <option value="Angeles">Angeles</option>
+                    <option value="Baguio">Baguio</option>
+                    <option value="Bais">Bais</option>
+                    <option value="Cabanatuan">Cabanatuan</option>
+                    <option value="Cebu">Cebu</option>
+                </select>
+            </div>
+            <div>
+                    <label for="availabilty">Preferred Contact time:</label>
+                <div class ="checkbox">
+                    <input type="checkbox" id="availabilty" name="Morning" value="Morning"> Morning</input><br>
+                    <input type="checkbox" id="availability" name="Afternoon" value="Afternoon"> Afternoon</input><br>
+                    <input type="checkbox" id="availability" name="Evening" value="Evening"> Evening</input>
+                </div> 
+            </div>
+                <div class="reg">
+                    <input type="submit" value="Register"           onclick="showLoginMessage()"></button>
+                </div>
+        </form>       
+    </div>   
+</body>
+    <script>
+        function showLoginMessage()
+        {
+            var firstName = document.getElementById('firstName').value;
+            alert("Hi! " + firstName + " your account is Successfully Registered!");
+        }
+    </script>
+</html>
