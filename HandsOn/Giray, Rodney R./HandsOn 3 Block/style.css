@@ -1,0 +1,172 @@
+body
+{
+    background-color:gold;
+
+}
+
+.container
+{
+    width: 700px;
+    min-height: 600px;
+    background-color: lightseagreen;
+    margin: 0px auto;
+    border: 1px solid;
+    padding: 20px;
+}
+    .container .header
+    {
+        min-height: 75px;
+        width: 575px;
+        background-color: rgb(231, 231, 198);
+        margin: 0px auto;
+        border: 2px solid rgb(170, 231, 71);
+        color: rgb(247, 15, 15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container .sideNav
+    {
+        min-height:355px;
+        width:85px;
+        background-color: rgb(231, 195, 151);
+        border: 1px solid white;
+        display: inline-block;
+        margin: 5px 20px 0px 60px;
+        padding-bottom: 20px;
+        
+    }
+        .container .sideNav .sideNav2
+        {
+            
+            width: 75px;
+            height: 300px;
+            margin: 50px 0px 0px 15px;
+        }
+            .sideNav2 img
+            {
+                height:30px;
+                width: 40px;
+                border-radius: 100px;
+            }
+           
+    .container .maincontent
+    {
+        height: 355px;
+        width: 470px;
+        background-color: rgb(122, 208, 235);
+        border: 1px solid white;
+        display: inline-block;
+        margin: 5px 20px 0px -6px;
+        vertical-align: top;
+        padding-bottom: 20px;
+          
+    }
+
+        .container .maincontent .subcon1
+        {  
+            height: 100px;
+            width: 100px;
+            margin: 10px 0px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 15px;
+        }
+            
+        .subcon1 img
+        {
+            
+            height:100px;
+            width:100%;
+            border-radius: 50%;
+        }
+     
+        .container .maincontent .subcon2
+        {
+            background-color:blueviolet;
+            height: 150px;
+            width: 330px;
+            margin: 10px 0px 4px 15px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px 10px 10px 10px;
+
+        }
+
+        .container .maincontent .imagediv1
+        {
+        
+            height:27px;
+            width: 50px;
+            margin: -54px 0px 0px 15px;
+            display:inline-block;
+            vertical-align: top;
+            
+        }
+        .container .maincontent .imagediv2
+        {
+            height:27px;
+            width: 50px;
+            margin: -59px 3px 0px 72px;
+           
+        }
+            .containger .maincontent .imagediv1 .imagediv2, img
+            {
+                width:100%;
+                height:100%;
+                border-radius:20% ;
+                box-shadow: 5px 10px 5px 0px #7a5d5d;
+            }
+     
+        .container .maincontent .subcon5
+        {
+            width: 444px;
+            height: 180px;
+            background-color: blueviolet;
+            margin: 20px 0px 0px 15px;
+            display: inline-block;
+            padding-bottom: 5px;
+           
+
+        }
+            .container .maincontent .subcon5 .rec
+            {
+                height: 45px;
+                width: 420px;
+                background-color: rgb(230, 191, 20);
+                margin: 10px 0px 0px 15px;
+                display: inline-block;
+            }
+
+            .container  .footer
+        {
+                min-height: 75px;
+                width: 575px;
+                background-color: rgb(231, 231, 198);
+                border: 2px solid rgb(170, 231, 71);
+                margin: 10px 10px 10px 60px;
+                color: rgb(250, 13, 13);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+        }  
+       
+       .subcon2 .table
+        {   
+            color: rgb(245, 241, 241);
+            width:100%;
+            text-align:left;
+         }   
+         .table th
+         {
+            color: white;
+            background-color:rgb(25, 172, 37)
+         }
+
+         
+        
+
+   
