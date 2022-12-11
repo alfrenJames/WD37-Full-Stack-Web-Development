@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="index.html"></a>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="Login">Login</h1>
+        <form action="" id="Login">
+            <label for="">Username</label>
+            <input type="text" class="form_text" autofocus placeholder="Username or Email" required><br> <br>
+            <label for="">Password</label>
+            <input type="password" class="form_password" placeholder="Password" required><br>
+            <input type="submit" value="Continue" onclick="Login()"><br>
+            <p class="form_text">
+                <a href="2.html" class="form_link">Forgot Password?</a>
+            </p>   
+            <p class="form_text">
+                <a href="registration.html" class="form_link">Sign-Up?</a>
+            </p>
+            <p class="form_text">
+                <a href="#" class="form_link">Already have an account?</a>
+            </p>
+        </form>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html>
