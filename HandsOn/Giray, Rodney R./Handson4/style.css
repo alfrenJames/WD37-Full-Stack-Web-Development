@@ -1,0 +1,156 @@
+body
+{
+    background-color: whitesmoke;
+
+    
+    
+}
+
+.container
+{
+    width:614px;
+    min-height:200px;
+    margin: 20px auto;
+    border: 1px solid rgb(0, 0, 0);
+    padding:10px;
+    padding-left: 25px;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(158, 158, 158) ,rgb(78, 68, 68), rgb(158, 158, 158) );
+    
+    
+}
+    .container .header
+    {
+        width:600px;
+        height: 70px;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: rgb(248, 231, 77);
+        
+    }
+        .container .header h1
+        {
+            display:inline-block;
+            margin-left: 10px;
+
+        }
+        
+        .container .header h2
+        {
+            margin-left: 125px;
+            display:inline-block;
+        }
+
+    .container .picture
+    {
+        width:250px;
+        height: 150px;
+        margin: 20px 0px 0px 0px;
+        display:inline-block;
+        
+    }
+        .container .picture .me
+        {
+            width:200px;
+            height: 100%;
+            border-radius:50%;
+            box-shadow: 2px 5px 5px 5px;
+        }
+
+        .container .about
+    {
+        width:317px;
+        height: 150px;
+        margin: 20px 0px 0px 25px;
+        display:inline-block;
+        vertical-align:top;
+        background-color: rgb(240, 204, 89);
+        color:white;
+    }
+        .container .about .colored
+        {
+            margin:0;
+            background-color: rgb(214, 89, 16);
+            padding:2px;  
+        }
+
+        .container .about p
+        {
+            color:black;
+        }
+
+        
+        .container .boxes
+    {
+        width:185px;
+        height: 300px;
+        display:inline-block;
+        vertical-align:top;
+        margin:20px 15px 0px 0px;
+        background-color: rgb(240, 204, 89);
+
+    }
+            .container .lamode
+        {
+            margin-top:0px;
+            color:white;
+            padding:2px;
+            background-color: rgb(214, 89, 16);
+            
+        }
+               .container .boxes img
+            {
+                width:100%;
+                margin-top:-21px;
+
+             }
+                .container .boxes p
+                {
+                    margin:0px;
+                }
+    .container .boxes2
+    {
+        width:185px;
+        height: 150px;
+        background-color: rgb(240, 204, 89);
+        margin: -1px 15px 0px 0px;
+        display:inline-block;
+        vertical-align: top;
+    }
+        .container .boxes2 .images img
+        {
+            height: 40px;
+            width: 40px;
+            margin-top: -19px;
+            margin-bottom:20px;
+        }
+
+        .container .footer
+        {
+            width:597px;
+            height: 70px;
+            border: 1px solid rgb(0, 0, 0);
+            margin-top:20px;  
+            background-color: rgb(248, 231, 77);
+            display: inline-block;
+            
+        }
+    
+            .container .footer h5
+            {
+                text-align:center;
+                margin:0px 0px 0px 0px;
+                
+            }
+    
+            .container .footer .footer2 img
+            {
+                height:20px;
+                width:20px;
+                display: inline-block;
+            }
+    
+            .container .footer .footer2 
+            {
+                margin: 7px 0px 0px 76px;
+                display: inline-block;
+               
+            }
