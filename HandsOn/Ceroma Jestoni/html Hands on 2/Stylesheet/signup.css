@@ -1,0 +1,19 @@
+div.maincontent {
+border: 1px;
+    width: 500px;
+    min-height: 500px;
+    margin: 0px auto;
+    margin-top: 50px;
+    background-color: rgba(5, 45, 85, 0.9);
+    border-radius: 50px;
+    padding: 20px;
+    font-family: monospace; 
+    font-weight: bold;
+    font-size: 15px;
+}
+div.maincontent label{
+    margin: 0px;
+    margin-left: 10px;
+    color: rgb(241, 175, 88);
+
+}
