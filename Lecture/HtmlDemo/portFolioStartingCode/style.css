@@ -1,0 +1,66 @@
+body{
+    background-color: grey;
+}
+div.container{
+    width: 900px;
+    min-height: 200px;
+    background-color: navy;
+    margin: 0px auto;
+    padding: 10px;
+}
+    div.container div.header{
+      width: 800px;
+      min-height: 100px;
+      background-color: black;
+      margin: 0px auto;
+      color: white; 
+    }
+        div.container div.header h1,h2{
+            display: inline-block;
+            
+        }
+        div.container div.header h1{
+            margin-left: 15px;
+            margin-right: 415px;
+        }
+    div.container div.profilePic{
+        background-color: black;
+        margin-left:50px; 
+        margin-top: 10px;   
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+        vertical-align: top;
+       
+    }    
+    div.container div.about{
+        background-color: black;
+        margin-left:196px; 
+        margin-top: 10px;   
+        width: 350px;
+        height: 250px;
+        display: inline-block;
+        color: white;
+        vertical-align: top;
+    }
+        div.container div.about h5{
+            background-color: aquamarine;
+            margin-top: 0px;
+        }
+        div.container div.project{
+            background-color: black;
+            margin-left:50px ;
+            margin-top: 10px;   
+            width: 230px;
+            height: 435px;
+            display: inline-block;
+            color: white;
+            vertical-align: top;
+        }
+        div.container div.footer{
+            width: 800px;
+      min-height: 100px;
+      background-color: black;
+      margin: 0px auto;
+      color: white;
+        } 
