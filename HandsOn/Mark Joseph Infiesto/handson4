@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mark Joseph Infiesto</h1>
+            <h2>FullStack Web Developer</h2>
+        </div>
+        <div class="profilePic">
+            <img src="src/image/3.png" alt="">
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate enim dolores ea accusamus numquam reprehenderit animi quis officia, eos quos, officiis est mollitia vero dicta repudiandae. Corrupti, fuga nulla accusamus voluptates dolorum asperiores? Quo quisquam nostrum ipsam velit fuga.</p>
+        </div>
+        <div class="project">
+            <h3>La mode</h3>
+            <img src="src/image/lamode.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate enim dolores ea accusamus numquam reprehenderit animi quis officia, eos quos, officiis est mollitia vero dicta repudiandae.</p>
+            <h3>Technologies</h3>
+            <img src="src/image/ajax.png" class="tech" alt="">
+            <img src="src/image/HTML.png" class="tech" alt="">
+            <img src="src/image/CSS.png" class="tech" alt="">
+            <img src="src/image/JavaScript.png" class="tech" alt="">
+            <img src="src/image/python.png" class="tech" alt="">
+            <img src="src/image/mysql.png" class="tech" alt="">
+            <img src="src/image/php.png" class="tech" alt="">
+            <img src="src/image/bootstrap.png" class="tech" alt="">
+        </div>
+        <div class="project">
+            <h3>Family Contacts</h3>
+            <img src="src/image/lamode.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate enim dolores ea accusamus numquam reprehenderit animi quis officia, eos quos, officiis est mollitia vero dicta repudiandae.</p>
+            <h3>Technologies</h3>
+            <img src="src/image/ajax.png" class="tech" alt="">
+            <img src="src/image/HTML.png" class="tech" alt="">
+            <img src="src/image/CSS.png" class="tech" alt="">
+            <img src="src/image/JavaScript.png" class="tech" alt="">
+            <img src="src/image/python.png" class="tech" alt="">
+            <img src="src/image/mysql.png" class="tech" alt="">
+            <img src="src/image/php.png" class="tech" alt="">
+            <img src="src/image/bootstrap.png" class="tech" alt="">
+        </div>
+        <div class="project">
+            <h3>fiveEleven</h3>
+            <img src="src/image/lamode.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate enim dolores ea accusamus numquam reprehenderit animi quis officia, eos quos, officiis est mollitia vero dicta repudiandae.</p>
+            <h3>Technologies</h3>
+            <img src="src/image/ajax.png" class="tech" alt="">
+            <img src="src/image/HTML.png" class="tech" alt="">
+            <img src="src/image/CSS.png" class="tech" alt="">
+            <img src="src/image/JavaScript.png" class="tech" alt="">
+            <img src="src/image/python.png" class="tech" alt="">
+            <img src="src/image/mysql.png" class="tech" alt="">
+            <img src="src/image/php.png" class="tech" alt="">
+            <img src="src/image/bootstrap.png" class="tech" alt="">
+        </div>
+        <div class="footer">
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    
+    CSS.
+    
+    body{
+    background-color: darkslategrey;
+}
+div.container{
+    width: 900px;
+    min-height: 600px;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 0px auto;
+    padding: 9px;
+}
+     div.container div.header{
+          width: 900px;
+          min-height: 100px;
+          background-color: black;
+          margin: 5px auto;
+          color: white;
+     }
+          div.container div.header h1,h2{
+               color: white;
+               padding-top: 10px;
+               display: inline-block;
+          }
+          div.container div.header h1{
+               font-family: sans-serif;
+               margin-left: 15px;
+               margin-right: 100px;
+          }
+          div.container div.header h2{
+               font-family: sans-serif;
+               margin-left: 15px;
+               margin-right: 160px;
+          }
+     div.container div.profilePic{
+          width: 320px;
+          height: 280px;
+          display: inline-block;
+          vertical-align: top;
+          background-color: gainsboro;
+          border-radius: 10px;
+          margin-left: 20px;
+     }
+          div.profilePic img {
+               width: 270px;
+               height: 270px;
+               border-radius: 50%;
+               margin-left: 20px;
+               margin-top: 5px;;
+
+          }
+     div.container div.about{
+          color: white;
+          background-color: black;
+          width: 480px;
+          height: 280px;
+          border-radius: 10px;
+          display: inline-block;
+          margin: 0 auto;
+          margin-left: 50px;
+     }
+          div.about h2 {
+               margin-left: 20px;
+          }
+          div.about p {
+               margin: 20px;
+               font-size: 20px;
+          }
+     div.container div.project{
+          background-color: white;
+          margin-left: 20px;
+          margin-top: 10px;
+          width: 267px;
+          height: 600px;
+          display: inline-block;
+          color: black;
+          vertical-align: top;
+     }
+          div.project h3 {
+               background-color: rgb(83, 73, 73);
+               margin: 0px;
+               padding-left: 10px;
+          }
+          div.project img {
+               width: 267px;
+          }
+          div.project p {
+               padding: 5px;
+               margin: 0px 0px 40px 0px;
+               font-size: 18px;
+          }
+          div.project .tech {
+               width: 50px;
+               margin-top: 10px;
+          }
+     div.container div.footer{
+          width: 900px;
+          min-height: 100px;
+          background-color: white;
+          margin: 5px auto;
+          color: white;
+     }
