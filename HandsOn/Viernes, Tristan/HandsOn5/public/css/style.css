@@ -1,0 +1,34 @@
+.container {
+    width: 1090px;
+    min-height: 500px;
+}
+    .row {
+        height: 50px;
+        width: auto;
+        margin-top: 5px;
+    }
+        .cells {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            vertical-align: top;
+        }
+            p {
+                text-align: center;
+            }
+            .elem {
+                font-size: 15px;
+                font-weight: bold;
+            }
+.color-blue {
+    background-color: #66d0fb;
+}
+.color-pink {
+    background-color: #ffbdc8;
+}
+.color-yellow {
+    background-color: #ffff1f;
+}
+.color-green {
+    background-color: #00821a;
+}
