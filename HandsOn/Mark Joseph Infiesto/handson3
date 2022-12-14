@@ -90,3 +90,99 @@
     </div>
 </body>
 </html>
+
+
+
+
+==CSS===
+div.container{
+    width: 1000px;
+    height: 1000px;
+    background-color: brown;
+    margin: 0px auto;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+    div.header{
+        width: 100%;
+        height: 15%;
+        background-color: rgb(146, 109, 109);
+    }
+        div.header h1{
+            margin: 0;
+            padding: 20px 0px 0px 30px;
+            font-size: 70px;
+        }
+        div.header h2{
+            margin: 0;
+            padding-left: 30px;
+            color: rgb(13, 14, 13);
+        }
+    div.sideNav{
+        display: inline-block;
+        width: 15%;
+        height: 70%;
+        background-color: rgb(20, 20, 22);
+    }
+        div.sideNav p{
+            margin: 0;
+        }
+    div.mainContent{
+        width: 85%;
+        height: 70%;
+        background-color: white;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+        div.profilePic{
+            width: 30%;
+            height: 50%;
+            background-color: blue;
+        }
+            div.idpic{
+                width: 100%;
+                height: 50%;
+                margin: 5px;
+            }
+                div.idpic img{
+                    width: 150px;
+                    height: 150px;
+                }
+            div.logo{
+                width: 100%;
+                height: 50%;
+                margin: 5px;
+            }
+                div.logo img{
+                    width: 150px;
+                    height: 150px;
+                }
+        div.table {
+            width: 70%;
+            height: 50%;
+            background-color: red;
+        }
+            div.table table{
+                border: 1px solid;
+            }
+        div.detailBody{
+            width: 100%;
+            height: 50%;
+            background-color: yellow;
+        }
+            div.detailBody p{
+                background-color: white;
+                width: 95%;
+                min-height: 25%;
+                margin: 15px;
+                display: inline-block;
+            }
+div.footer{
+    width: 1000px;
+    height: 150px;
+    background-color: rgb(146, 109, 109);
+}
+
+
