@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    border: 20px solid;
+    height: 100vh;
+}
+header{
+    background-color: yellow;
+    border:2px solid;
+    margin-bottom: 10px;
+
+}
+article{
+    background-color: aliceblue;
+    border: 2px solid;
+}
+div.container{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 3px solid;
+}
+    div.container div.row{
+        background-color: blueviolet;
+        padding: 10px;
+        border: 3px solid;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+        div.container div.row p{
+            border: 2px solid;
+            width: 200px;
+            background-color: red;
+            color: white;
+            margin: 2px;
+            text-align: center;
+        }
+       
+/* this the screen for mobile */
+@media only screen and (max-width: 480px)
+{
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    
+}
+/* this the screen for tablet */
+@media only screen and (min-width: 481px)
+{
+    .tablet{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .extraContent{
+        display: none;
+    }
+}
+/* this the screen for desktop */
+@media only screen and (min-width: 1024px){
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
