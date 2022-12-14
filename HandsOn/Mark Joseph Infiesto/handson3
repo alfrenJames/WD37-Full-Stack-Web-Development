@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>HandsOn3</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>meron na</h1>
+            <h2>meron na nga</h2>
+        </div>
+        <div class="sideNav">
+            <p><a href="#">LINK</a></p>
+            <p><a href="#">LINK</a></p>
+            <p><a href="#">LINK</a></p>
+            <p><a href="#">LINK</a></p>
+        </div>
+        <div class="mainContent">
+            <div class="profilePic">
+                <div class="idpic">
+                    <img src="public/image/1.png" alt="">
+                </div>
+                <div class="logo">
+                    <img src="public/image/2.png" alt="">
+                </div>
+            </div>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>age</th>
+                            <th>gender</th>
+                            <th>contact</th>
+                            <th>address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>mama</td>
+                            <td>31</td>
+                            <td>babae</td>
+                            <td>234252342</td>
+                            <td>earth</td>
+                        </tr>
+                        <tr>
+                            <td>mama</td>
+                            <td>31</td>
+                            <td>babae</td>
+                            <td>234252342</td>
+                            <td>earth</td>
+                        </tr>
+                        <tr>
+                            <td>mama</td>
+                            <td>31</td>
+                            <td>babae</td>
+                            <td>234252342</td>
+                            <td>earth</td>
+                        </tr>
+                        <tr>
+                            <td>mama</td>
+                            <td>31</td>
+                            <td>babae</td>
+                            <td>234252342</td>
+                            <td>earth</td>
+                        </tr>
+                        <tr>
+                            <td>mama</td>
+                            <td>31</td>
+                            <td>babae</td>
+                            <td>234252342</td>
+                            <td>earth</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="detailBody">
+                <p>asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur suscipit assumenda sequi obcaecati dolorem dolore. Neque aut consequuntur ex ab nulla quae error. Maiores dolorum natus, corporis ipsum facilis ratione?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam maiores est, labore ad dolores placeat, harum nam voluptates aspernatur, modi ut. Officia ad fugit, dolores perspiciatis libero, magnam aliquid ea repellat quod nesciunt suscipit nemo eum at esse sequi consequuntur eaque? Eveniet commodi perferendis ad molestiae illo, aliquid laborum repellat!</p>
+            </div>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+</body>
+</html>
