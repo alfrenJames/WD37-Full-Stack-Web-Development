@@ -5,17 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--BOOTSTRAP CSS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-
-    <!-- MAIN CSS-->
-    <link rel="stylesheet" href="Public/CSS/style.css" />
-
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,390 +18,365 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    
+    <!-- MAIN CSS-->
+    <link rel="stylesheet" href="Public/CSS/style.css" />
 
     <title>My Hands On 1</title>
   </head>
 
   <body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="Public/images/kodigo-logo-transparent-png.png"
-              alt="Logo"
-            />
-          </a>
-
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                HandsOn Assignment
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="my-hands-on-1.html"
-                    >Hands On 1</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="#">Hands On 2</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Hands on 3</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="handsOn-container">
-      <h1>HTML and CSS</h1>
-      <p>
-        Instruction:
-        <br />
-        1. Create html table with the following data:
-      </p>
-      <div class="tableOne">
-        <table>
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Address</th>
-            <th>City</th>
-            <th>Age</th>
-          </tr>
-          <tr class="white">
-            <td>Mickey</td>
-            <td>Mouse</td>
-            <td>123 Fantasy Way</td>
-            <td>Anaheim</td>
-            <td>73</td>
-          </tr>
-          <tr class="gray">
-            <td>Bat</td>
-            <td>Man</td>
-            <td>321 Cavern Ave</td>
-            <td>Gotham</td>
-            <td>54</td>
-          </tr>
-          <tr class="white">
-            <td>Wonder</td>
-            <td>Woman</td>
-            <td>987 Truth Way</td>
-            <td>Paradise</td>
-            <td>39</td>
-          </tr>
-          <tr class="gray">
-            <td>Donald</td>
-            <td>Duck</td>
-            <td>555 Quack Street</td>
-            <td>Mallard</td>
-            <td>65</td>
-          </tr>
-          <tr class="white">
-            <td>Bugs</td>
-            <td>Bunny</td>
-            <td>567 Carrot Street</td>
-            <td>Rascal</td>
-            <td>58</td>
-          </tr>
-          <tr class="gray">
-            <td>Wiley</td>
-            <td>Coyote</td>
-            <td>999 Acme Way</td>
-            <td>Canyon</td>
-            <td>61</td>
-          </tr>
-          <tr class="white">
-            <td>Cat</td>
-            <td>Woman</td>
-            <td>234 Purrfect Street</td>
-            <td>Hairball</td>
-            <td>32</td>
-          </tr>
-          <tr class="gray">
-            <td>Tweety</td>
-            <td>Bird</td>
-            <td>543</td>
-            <td>Itotltaw</td>
-            <td>28</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="tableOne">
-        <p>
-          2. Create another table reference to the first one, but this time add
-          table header "Image" and <br />
-          insert image in table data, images will have same width and height.
-        </p>
-        <table>
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Address</th>
-            <th>City</th>
-            <th>Age</th>
-            <th>Image</th>
-          </tr>
-          <tr class="white">
-            <td>Mickey</td>
-            <td>Mouse</td>
-            <td>123 Fantasy Way</td>
-            <td>Anaheim</td>
-            <td>73</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://upload.wikimedia.org/wikipedia/tl/d/d4/Mickey_Mouse.png"
-                alt="mickeyMouse"
-              />
-            </td>
-          </tr>
-          <tr class="gray">
-            <td>Bat</td>
-            <td>Man</td>
-            <td>321 Cavern Ave</td>
-            <td>Gotham</td>
-            <td>54</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://cdn.pixabay.com/photo/2018/02/07/12/42/batman-3137002__340.png"
-                alt="batman"
-              />
-            </td>
-          </tr>
-          <tr class="white">
-            <td>Wonder</td>
-            <td>Woman</td>
-            <td>987 Truth Way</td>
-            <td>Paradise</td>
-            <td>39</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://cdn.pixabay.com/photo/2017/07/06/18/48/wonder-woman-2478971__340.jpg"
-                alt="wonder woman"
-              />
-            </td>
-          </tr>
-          <tr class="gray">
-            <td>Donald</td>
-            <td>Duck</td>
-            <td>555 Quack Street</td>
-            <td>Mallard</td>
-            <td>65</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://static.wikia.nocookie.net/disney/images/d/db/Donald_Duck_Iconic.png"
-                alt="Donald Duck"
-              />
-            </td>
-          </tr>
-          <tr class="white">
-            <td>Bugs</td>
-            <td>Bunny</td>
-            <td>567 Carrot Street</td>
-            <td>Rascal</td>
-            <td>58</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://cdn.pixabay.com/photo/2021/01/11/13/03/big-chungus-5908358__340.png"
-                alt="Bugs Bunny"
-              />
-            </td>
-          </tr>
-          <tr class="gray">
-            <td>Wiley</td>
-            <td>Coyote</td>
-            <td>999 Acme Way</td>
-            <td>Canyon</td>
-            <td>61</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://i.pinimg.com/236x/eb/91/2d/eb912d32409692a2ad893c9a1df79858.jpg"
-                alt="wiley Coyote"
-              />
-            </td>
-          </tr>
-          <tr class="white">
-            <td>Cat</td>
-            <td>Woman</td>
-            <td>234 Purrfect Street</td>
-            <td>Hairball</td>
-            <td>32</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://upload.wikimedia.org/wikipedia/commons/6/68/Catwoman_cosplayer_%2833483657440%29_%28cropped%29.jpg"
-                alt="Cat Woman"
-              />
-            </td>
-          </tr>
-          <tr class="gray">
-            <td>Tweety</td>
-            <td>Bird</td>
-            <td>543</td>
-            <td>Itotltaw</td>
-            <td>28</td>
-            <td>
-              <img
-                class="table-pix"
-                src="https://e7.pngegg.com/pngimages/867/212/png-clipart-tweety-bird-thumbnail.png"
-                alt="Tweety Bird"
-              />
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="tableOne">
-        <p>
-          3. Make an ordered list of your top 3 restaurant and link their
-          website address to your list items.
-        </p>
-        <table>
-          <tr>
-            <th>My Top 3 Restaurants</th>
-          </tr>
-          <tr class="white">
-            <td>Restaurant</td>
-            <td>Website Address</td>
-          </tr>
-
-          <tr class="gray">
-            <td>
-              <ol>
-                <li>SAMGYUPSALAMAT</li>
-                <li>Jollibee</li>
-                <li>KFC</li>
-              </ol>
-            </td>
-            <td>
-              <ol>
-                <li>
-                  <a href="https://www.facebook.com/Samgyupsalamat">Link</a>
-                </li>
-                <li><a href="https://www.jollibee.com.ph/">Link</a></li>
-                <li><a href="https://www.kfc.com.ph/home">Link</a></li>
-              </ol>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="tableOne">
-        <p>4. Make an unordered list of 5 colors.</p>
-        <table>
-          <tr>
-            <th>List of 5 colors</th>
-          </tr>
-          <tr class="white">
-            <td>Colors</td>
-          </tr>
-
-          <tr class="gray">
-            <td>
-              <ul>
-                <li>Purple</li>
-                <li>Red</li>
-                <li>Blue</li>
-                <li>Green</li>
-                <li>Black</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-        <p>
-          5. Create an article with your own content.
-          <br />
-          Please Read my <a href="about.html">About</a>. Thank you!
-        </p>
-        <p>
-          6. Get the embed google map of your town address use this
-          <a href="https://www.embedgooglemap.net/">link</a>.
-        </p>
-      </div>
-
-      <div style="margin: auto" class="mapouter">
-        <div class="gmap_canvas">
-          <iframe
-            width="600"
-            height="500"
-            id="gmap_canvas"
-            src="https://maps.google.com/maps?q=carmona%20cavite&t=k&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-          ></iframe
-          ><a href="https://123movies-a.com"></a><br /><style>
-            .mapouter {
-              position: relative;
-              text-align: right;
-              height: 500px;
-              width: 600px;
-            }</style
-          ><a href="https://www.embedgooglemap.net"
-            >how to add a google map to your website</a
-          ><style>
-            .gmap_canvas {
-              overflow: hidden;
-              background: none !important;
-              height: 500px;
-              width: 600px;
-            }
-          </style>
-        </div>
-      </div>
-
-
-      <p>
-        7. Define a video content that specify video control such as play and paused, height and width
-        <br> should be 300px, video will start all over again as it finish and muted as default as the page loaded. 
-      </p>
-       <div class="container" style="text-align: center;">
-      <video loop autoplay="true" width="320" height="300" controls>
-          <source src="Public/images/videoplayback.mp4" type="video/mp4" />
-          <source src="Public/images/videoplayback.mp4" type="video/ogg" />
-          Your browser does not support the video tag.
-        </video>
-
-     </div>
    
+      <nav>
+        <img
+          class="logo"
+          src="Public/images/kodigo-logo-transparent-png.png"
+          alt="Logo"
+        />
 
-    
-    </div>
+        <a class="links active" href="index.html">Home</a>
+        <a class="links" href="about.html">About</a>
+        <a class="links" href="my-bootstrap-hands-on-blog.html">Blog</a>
+
+        <div class="dropdown-menu">
+          <button class="menu-btn">Hands On Assignments</button>
+          <div class="menu-content">
+            <a class="links-hidden" href="my-hands-on-1.html"
+              >HTML and CSS Hands On 1</a
+            >
+            <a class="links-hidden" href="my-hands-on-2.html">Hands On 2</a>
+            <a class="links-hidden" href="my-hands-on-3.html">Hands On 3</a>
+            <a class="links-hidden" href="my-hands-on-3-1.html">Hands On 3.1</a>
+            <a class="links-hidden" href="my-hands-on-4.html">Hands On 4</a>
+            <a class="links-hidden" href="my-bootstrap-hands-on-1.html"
+              >Hands On Bootstrap 1</a
+            >
+            <a class="links-hidden" href="#">Hands On 5</a>
+          </div>
+        </div>
+      </nav>
+      <div class="handsOn-container">
+        <h1>HTML Hands On 1</h1>
+        <p>
+          Instruction:
+          <br />
+          1. Create html table with the following data:
+        </p>
+        <div class="tableOne">
+          <table>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Address</th>
+              <th>City</th>
+              <th>Age</th>
+            </tr>
+            <tr class="white">
+              <td>Mickey</td>
+              <td>Mouse</td>
+              <td>123 Fantasy Way</td>
+              <td>Anaheim</td>
+              <td>73</td>
+            </tr>
+            <tr class="gray">
+              <td>Bat</td>
+              <td>Man</td>
+              <td>321 Cavern Ave</td>
+              <td>Gotham</td>
+              <td>54</td>
+            </tr>
+            <tr class="white">
+              <td>Wonder</td>
+              <td>Woman</td>
+              <td>987 Truth Way</td>
+              <td>Paradise</td>
+              <td>39</td>
+            </tr>
+            <tr class="gray">
+              <td>Donald</td>
+              <td>Duck</td>
+              <td>555 Quack Street</td>
+              <td>Mallard</td>
+              <td>65</td>
+            </tr>
+            <tr class="white">
+              <td>Bugs</td>
+              <td>Bunny</td>
+              <td>567 Carrot Street</td>
+              <td>Rascal</td>
+              <td>58</td>
+            </tr>
+            <tr class="gray">
+              <td>Wiley</td>
+              <td>Coyote</td>
+              <td>999 Acme Way</td>
+              <td>Canyon</td>
+              <td>61</td>
+            </tr>
+            <tr class="white">
+              <td>Cat</td>
+              <td>Woman</td>
+              <td>234 Purrfect Street</td>
+              <td>Hairball</td>
+              <td>32</td>
+            </tr>
+            <tr class="gray">
+              <td>Tweety</td>
+              <td>Bird</td>
+              <td>543</td>
+              <td>Itotltaw</td>
+              <td>28</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tableOne">
+          <p>
+            2. Create another table reference to the first one, but this time
+            add table header "Image" and <br />
+            insert image in table data, images will have same width and height.
+          </p>
+          <table>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Address</th>
+              <th>City</th>
+              <th>Age</th>
+              <th>Image</th>
+            </tr>
+            <tr class="white">
+              <td>Mickey</td>
+              <td>Mouse</td>
+              <td>123 Fantasy Way</td>
+              <td>Anaheim</td>
+              <td>73</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://upload.wikimedia.org/wikipedia/tl/d/d4/Mickey_Mouse.png"
+                  alt="mickeyMouse"
+                />
+              </td>
+            </tr>
+            <tr class="gray">
+              <td>Bat</td>
+              <td>Man</td>
+              <td>321 Cavern Ave</td>
+              <td>Gotham</td>
+              <td>54</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://cdn.pixabay.com/photo/2018/02/07/12/42/batman-3137002__340.png"
+                  alt="batman"
+                />
+              </td>
+            </tr>
+            <tr class="white">
+              <td>Wonder</td>
+              <td>Woman</td>
+              <td>987 Truth Way</td>
+              <td>Paradise</td>
+              <td>39</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://cdn.pixabay.com/photo/2017/07/06/18/48/wonder-woman-2478971__340.jpg"
+                  alt="wonder woman"
+                />
+              </td>
+            </tr>
+            <tr class="gray">
+              <td>Donald</td>
+              <td>Duck</td>
+              <td>555 Quack Street</td>
+              <td>Mallard</td>
+              <td>65</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://static.wikia.nocookie.net/disney/images/d/db/Donald_Duck_Iconic.png"
+                  alt="Donald Duck"
+                />
+              </td>
+            </tr>
+            <tr class="white">
+              <td>Bugs</td>
+              <td>Bunny</td>
+              <td>567 Carrot Street</td>
+              <td>Rascal</td>
+              <td>58</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://cdn.pixabay.com/photo/2021/01/11/13/03/big-chungus-5908358__340.png"
+                  alt="Bugs Bunny"
+                />
+              </td>
+            </tr>
+            <tr class="gray">
+              <td>Wiley</td>
+              <td>Coyote</td>
+              <td>999 Acme Way</td>
+              <td>Canyon</td>
+              <td>61</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://i.pinimg.com/236x/eb/91/2d/eb912d32409692a2ad893c9a1df79858.jpg"
+                  alt="wiley Coyote"
+                />
+              </td>
+            </tr>
+            <tr class="white">
+              <td>Cat</td>
+              <td>Woman</td>
+              <td>234 Purrfect Street</td>
+              <td>Hairball</td>
+              <td>32</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/68/Catwoman_cosplayer_%2833483657440%29_%28cropped%29.jpg"
+                  alt="Cat Woman"
+                />
+              </td>
+            </tr>
+            <tr class="gray">
+              <td>Tweety</td>
+              <td>Bird</td>
+              <td>543</td>
+              <td>Itotltaw</td>
+              <td>28</td>
+              <td>
+                <img
+                  class="table-pix"
+                  src="https://e7.pngegg.com/pngimages/867/212/png-clipart-tweety-bird-thumbnail.png"
+                  alt="Tweety Bird"
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tableOne">
+          <p>
+            3. Make an ordered list of your top 3 restaurant and link their
+            website address to your list items.
+          </p>
+          <table>
+            <tr>
+              <th>My Top 3 Restaurants</th>
+            </tr>
+            <tr class="white">
+              <td>Restaurant</td>
+              <td>Website Address</td>
+            </tr>
+
+            <tr class="gray">
+              <td>
+                <ol>
+                  <li>SAMGYUPSALAMAT</li>
+                  <li>Jollibee</li>
+                  <li>KFC</li>
+                </ol>
+              </td>
+              <td>
+                <ol>
+                  <li>
+                    <a href="https://www.facebook.com/Samgyupsalamat">Link</a>
+                  </li>
+                  <li><a href="https://www.jollibee.com.ph/">Link</a></li>
+                  <li><a href="https://www.kfc.com.ph/home">Link</a></li>
+                </ol>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tableOne">
+          <p>4. Make an unordered list of 5 colors.</p>
+          <table>
+            <tr>
+              <th>List of 5 colors</th>
+            </tr>
+            <tr class="white">
+              <td>Colors</td>
+            </tr>
+
+            <tr class="gray">
+              <td>
+                <ul>
+                  <li>Purple</li>
+                  <li>Red</li>
+                  <li>Blue</li>
+                  <li>Green</li>
+                  <li>Black</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          <p>
+            5. Create an article with your own content.
+            <br />
+            Please Read my <a href="about.html">About</a>. Thank you!
+          </p>
+          <p>
+            6. Get the embed google map of your town address use this
+            <a href="https://www.embedgooglemap.net/">link</a>.
+          </p>
+        </div>
+
+        <div style="margin: auto" class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="600"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=carmona%20cavite&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a href="https://123movies-a.com"></a><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 600px;
+              }</style
+            ><a href="https://www.embedgooglemap.net"
+              >how to add a google map to your website</a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 600px;
+              }
+            </style>
+          </div>
+        </div>
+
+        <p>
+          7. Define a video content that specify video control such as play and
+          paused, height and width
+          <br />
+          should be 300px, video will start all over again as it finish and
+          muted as default as the page loaded.
+        </p>
+
+        <div style="text-align: center">
+          <video width="320" height="300" autoplay="autoplay" muted loop controls>
+            <source src="Public/images/videoplayback.mp4" type="video/mp4" />
+            <source src="Public/images/videoplayback.mp4" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+ 
 
     <!--MAIN JS-->
     <script src="Public/js/index.js"></script>
