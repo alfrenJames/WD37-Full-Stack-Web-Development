@@ -1,0 +1,15 @@
+body
+{
+    height:100vh;
+    /* padding:20px; */
+    
+   
+}    
+
+td > label
+{
+    background-color:whitesmoke;
+    color:red;
+    display:flex;
+}
+
