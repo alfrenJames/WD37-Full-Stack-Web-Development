@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+    .header
+    {
+        width:100%;
+        height:100px;
+        background-color: #8ace3f;
+    }
+
+    body
+    {
+        height:100vh;
+       
+    }
+
+        .body-section
+        {
+            display:flex;
+                
+        }
+
+            .section
+            {
+                width:50%;
+                height: 400px;
+                background-color:#f5f5dc;
+                padding:20px;
+                margin:20px;
+                display:flex;
+                justify-content: space-between;
+                flex-wrap: wrap     
+            }
+
+                input[type="text"], input[type="date"],input[type="email"],input[type="Dropdown list"]
+                {
+                    padding: 10px;
+                    margin:2px;
+                }
+
+                .button
+                {
+                    
+                    border: none;
+                    color: white;
+                    padding: 12px 25px;
+                    background-color: gray;
+                    font-size: 12px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    margin-left:250px;
+                }
+
+                .form
+                {
+                    width:60%;
+                    height:300px;
+                    margin-bottom:10px;
+                }
+
+                .transpo
+                {
+                    width:35%;
+                    height:300px;
+                    
+                }
+
+                .flex-input2 label
+                {
+                    width:100px;
+                    display:inline-block;
+                }
+
+            .aside
+            {
+                width:25%;
+                background-color:#f5f5dc;
+            }
+            
+            .nav
+            {
+                width:25%;
+                background-color:#d2e9d5;
+            }
+
+    .footer
+    {
+        background-color:#8ace3f;
+        height:100px;
+    }
+
+    

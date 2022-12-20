@@ -1,0 +1,52 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;  
+}
+
+body
+{   
+    height: 100vh;
+    background-color:rgb(243, 109, 109);
+    display: flex;
+    color:black;
+    text-align:left;
+    flex-direction: column;
+}
+    .header
+    {
+        background-color:#8ace3f;
+        padding: 40px;   
+    }
+
+    .container
+    {
+        display: flex;
+        flex: 5;
+    }
+
+    .nav
+    {
+        background-color: #f5f5dc;
+        padding: 40px; 
+    }
+    
+    .article
+    {
+        background-color: #ffffff;
+        padding: 120px;
+        flex: 5;
+    }
+
+    .aside
+    {
+        background-color: #f5f5dc;
+        padding: 40px;
+        
+    }
+
+    .footer
+    {
+        background-color: #8ace3f;
+        padding: 30px;
+    }

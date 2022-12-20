@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body
+{   
+    height:100vh;
+    background-color:rgb(243, 109, 109);
+    color:black;
+    display:flex;
+    /* flex-wrap: wrap;      */
+}
+
+.navi
+{   
+  background-color:#d2e9d5;
+  padding:20px;
+  flex:1
+}
+.header
+{
+  background-color:#8ace3f;
+  padding:20px;
+  height:20vh;
+}
+  .maincontainer 
+  {
+    display:flex;
+    flex-direction: column; 
+    flex:5; 
+  }
+    .maincontainer .mainsection
+    {
+      display:flex;
+      flex-direction:row;
+    }
+    .maincontainer .mainsection article
+    {
+      background-color: #ffffff;
+      min-height:60vh;
+      padding:20px;
+      flex:3;
+    }
+    
+    .maincontainer .mainsection aside
+    {
+      background-color:#f5f5dc;
+      flex:1;
+    }
+
+  footer
+  {
+    background-color:#8ace3f;
+    height:20vh;
+  }
+  
+  
+
