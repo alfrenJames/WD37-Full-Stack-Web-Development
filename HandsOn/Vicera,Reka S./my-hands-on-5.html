@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Public/CSS/style.css" />
+
+    <!-- Icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>HTML and CSS Hands On 5</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav>
+      <img
+        class="logo"
+        src="Public/images/kodigo-logo-transparent-png.png"
+        alt="Logo"
+      />
+
+      <a class="links active" href="index.html">Home</a>
+      <a class="links" href="about.html">About</a>
+      <a class="links" href="my-bootstrap-hands-on-blog.html">Blog</a>
+
+      <div class="dropdown-menu">
+        <button class="menu-btn">Hands On Assignments</button>
+        <div class="menu-content">
+          <a class="links-hidden" href="my-hands-on-1.html"
+            >HTML and CSS Hands On 1</a
+          >
+          <a class="links-hidden" href="my-hands-on-2.html">HTML Hands On 2</a>
+          <a class="links-hidden" href="my-hands-on-3.html"
+            >HTML and CSS Hands On 3</a
+          >
+          <a class="links-hidden" href="my-hands-on-3-1.html">Hands On 3.1</a>
+          <a class="links-hidden" href="my-hands-on-4.html"
+            >HTML and CSS Hands On 4</a
+          >
+          <a class="links-hidden" href="my-hands-on-5.html">Hands On 5</a>
+          <a class="links-hidden" href="my-bootstrap-hands-on-1.html"
+            >Hands On Bootstrap 1</a
+          >
+          <a class="links-hidden" href="my-bootstrap-hands-on-2.html"
+            >Hands On Bootstrap 2</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Periodic Table of the Elements</h1>
+      <table class="periodic">
+        <tr>
+          <td>
+            Group <br />
+            Period
+          </td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+        </tr>
+        <!-----=======FIRST======-------->
+        <tr>
+          <td>1</td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">1</p>
+            <p class="symbol">H</p>
+            <p class="infos">1.008</p>
+          </td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+          <td style="background-color: #e61e50;" class="line">
+            <p class="number">2</p>
+            <p class="symbol">He</p>
+            <p class="infos">4.0026</p>
+          </td>
+        </tr>
+        <!-----=======SECOND======-------->
+        <tr>
+          <td>2</td>
+          <td style="background-color: #149b5f" class="line">
+            <p class="number">3</p>
+            <p class="symbol">Li</p>
+            <p class="infos">6.94</p>
+          </td>
+          <td style="background-color: #0f69af;" class="line">
+            <p class="number">4</p>
+            <p class="symbol">Be</p>
+            <p class="infos">9.0122</p>
+          </td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+          <td style="background-color: #2dbecd;" class="line">
+            <p class="number">5</p>
+            <p class="symbol">B</p>
+            <p class="infos">10.81</p>
+          </td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">6</p>
+            <p class="symbol">C</p>
+            <p class="infos">12.011</p>
+          </td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">7</p>
+            <p class="symbol">N</p>
+            <p class="infos">14.007</p>
+          </td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">8</p>
+            <p class="symbol">O</p>
+            <p class="infos">15.999</p>
+          </td>
+          <td style="background-color: #ffdcb9;" class="line">
+            <p class="number">9</p>
+            <p class="symbol">F</p>
+            <p class="infos">18.998</p>
+          </td>
+          <td style="background-color: #e61e50;" class="line">
+            <p class="number">10</p>
+            <p class="symbol">Ne</p>
+            <p class="infos">20.180</p>
+          </td>
+        </tr>
+        <!-----=======THIRD======-------->
+        <tr>
+          <td>3</td>
+          <td style="background-color: #149b5f" class="line">
+            <p class="number">11</p>
+            <p class="symbol">Na</p>
+            <p class="infos">22.990</p>
+          </td>
+          <td style="background-color: #0f69af;"  class="line">
+            <p class="number">12</p>
+            <p class="symbol">Mg</p>
+            <p class="infos">24.305</p>
+          </td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">13</p>
+            <p class="symbol">Al</p>
+            <p class="infos">26.982</p>
+          </td>
+          <td style="background-color: #2dbecd;" class="line">
+            <p class="number">14</p>
+            <p class="symbol">Si</p>
+            <p class="infos">28.085</p>
+          </td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">15</p>
+            <p class="symbol">P</p>
+            <p class="infos">30.974</p>
+          </td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">16</p>
+            <p class="symbol">S</p>
+            <p class="infos">32.06</p>
+          </td>
+          <td style="background-color: #ffdcb9;" class="line">
+            <p class="number">17</p>
+            <p class="symbol">Cl</p>
+            <p class="infos">35.45</p>
+          </td>
+          <td style="background-color: #e61e50;" class="line">
+            <p class="number">18</p>
+            <p class="symbol">Ar</p>
+            <p class="infos">39.948</p>
+          </td>
+        </tr>
+        <!-----=======FOURTH======-------->
+        <tr>
+          <td>4</td>
+          <td style="background-color: #149b5f" class="line">
+            <p class="number">19</p>
+            <p class="symbol">K</p>
+            <p class="infos">39.098</p>
+          </td>
+          <td style="background-color: #0f69af;"  class="line">
+            <p class="number">20</p>
+            <p class="symbol">Ca</p>
+            <p class="infos">40.078</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">21</p>
+            <p class="symbol">Sc</p>
+            <p class="infos">44.956</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">22</p>
+            <p class="symbol">Ti</p>
+            <p class="infos">47.867</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">23</p>
+            <p class="symbol">V</p>
+            <p class="infos">50.942</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">24</p>
+            <p class="symbol">Cr</p>
+            <p class="infos">51.996</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">25</p>
+            <p class="symbol">Mn</p>
+            <p class="infos">54.938</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">26</p>
+            <p class="symbol">Fe</p>
+            <p class="infos">55.845</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">27</p>
+            <p class="symbol">Co</p>
+            <p class="infos">58.933</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">28</p>
+            <p class="symbol">Ni</p>
+            <p class="infos">58.693</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">29</p>
+            <p class="symbol">Cu</p>
+            <p class="infos">63.546</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">30</p>
+            <p class="symbol">Zn</p>
+            <p class="infos">65.38</p>
+          </td>
+          <td style="background-color: #ffc832;"class="line">
+            <p class="number">31</p>
+            <p class="symbol">Ga</p>
+            <p class="infos">69.723</p>
+          </td>
+          <td style="background-color: #2dbecd;" class="line">
+            <p class="number">32</p>
+            <p class="symbol">Ge</p>
+            <p class="infos">72.63</p>
+          </td>
+          <td style="background-color: #2dbecd;" class="line">
+            <p class="number">33</p>
+            <p class="symbol">As</p>
+            <p class="infos">74.922</p>
+          </td>
+          <td style="background-color: #b4dc96" class="line">
+            <p class="number">34</p>
+            <p class="symbol">Se</p>
+            <p class="infos">78.96</p>
+          </td>
+          <td style="background-color: #ffdcb9;" class="line">
+            <p class="number">35</p>
+            <p class="symbol">Br</p>
+            <p class="infos">79.904</p>
+          </td>
+          <td style="background-color: #e61e50;"class="line">
+            <p class="number">36</p>
+            <p class="symbol">Kr</p>
+            <p class="infos">83.798</p>
+          </td>
+        </tr>
+        <!-----=======FIFTH======-------->
+        <tr>
+          <td>5</td>
+          <td style="background-color: #149b5f" class="line">
+            <p class="number">37</p>
+            <p class="symbol">Rb</p>
+            <p class="infos">85.468</p>
+          </td>
+          <td style="background-color: #0f69af;"  class="line">
+            <p class="number">38</p>
+            <p class="symbol">Sr</p>
+            <p class="infos">87.62</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">39</p>
+            <p class="symbol">Y</p>
+            <p class="infos">88.906</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">40</p>
+            <p class="symbol">Zr</p>
+            <p class="infos">91.224</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">41</p>
+            <p class="symbol">Nb</p>
+            <p class="infos">92.906</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">42</p>
+            <p class="symbol">Mo</p>
+            <p class="infos">95.96</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">43</p>
+            <p class="symbol">Tc</p>
+            <p class="infos">97.91</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">44</p>
+            <p class="symbol">Ru</p>
+            <p class="infos">101.07</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">45</p>
+            <p class="symbol">Rh</p>
+            <p class="infos">102.91</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">46</p>
+            <p class="symbol">Pd</p>
+            <p class="infos">106.42</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">47</p>
+            <p class="symbol">Ag</p>
+            <p class="infos">107.87</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">48</p>
+            <p class="symbol">Cd</p>
+            <p class="infos">112.41</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">49</p>
+            <p class="symbol">In</p>
+            <p class="infos">114.82</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">50</p>
+            <p class="symbol">Sn</p>
+            <p class="infos">118.71</p>
+          </td>
+          <td  style="background-color: #2dbecd;" class="line">
+            <p class="number">51</p>
+            <p class="symbol">As</p>
+            <p class="infos">121.76</p>
+          </td>
+          <td style="background-color: #2dbecd;" class="line">
+            <p class="number">52</p>
+            <p class="symbol">Te</p>
+            <p class="infos">127.60</p>
+          </td>
+          <td style="background-color: #ffdcb9;" class="line">
+            <p class="number">53</p>
+            <p class="symbol">I</p>
+            <p class="infos">126.90</p>
+          </td>
+          <td style="background-color: #e61e50;"  class="line">
+            <p class="number">54</p>
+            <p class="symbol">Xe</p>
+            <p class="infos">131.29</p>
+          </td>
+        </tr>
+        <!-----=======SIXTH======-------->
+        <tr>
+          <td>6</td>
+          <td style="background-color: #149b5f" class="line">
+            <p class="number">55</p>
+            <p class="symbol">Cs</p>
+            <p class="infos">132.91</p>
+          </td>
+          <td style="background-color: #0f69af;"  class="line">
+            <p class="number">56</p>
+            <p class="symbol">Ba</p>
+            <p class="infos">137.33</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">57</p>
+            <p class="symbol">-</p>
+            <p class="infos">71</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">72</p>
+            <p class="symbol">Hf</p>
+            <p class="infos">178.49</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">73</p>
+            <p class="symbol">Ta</p>
+            <p class="infos">180.95</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">74</p>
+            <p class="symbol">W</p>
+            <p class="infos">183.84</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">75</p>
+            <p class="symbol">Re</p>
+            <p class="infos">186.21</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">76</p>
+            <p class="symbol">Os</p>
+            <p class="infos">190.23</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">77</p>
+            <p class="symbol">Ir</p>
+            <p class="infos">192.22</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">78</p>
+            <p class="symbol">Pt</p>
+            <p class="infos">195.08</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">79</p>
+            <p class="symbol">Au</p>
+            <p class="infos">196.97</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">80</p>
+            <p class="symbol">Hg</p>
+            <p class="infos">200.59</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">81</p>
+            <p class="symbol">Tl</p>
+            <p class="infos">204.38</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">82</p>
+            <p class="symbol">Pb</p>
+            <p class="infos">207.2</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">83</p>
+            <p class="symbol">Bi</p>
+            <p class="infos">208.98</p>
+          </td>
+          <td style="background-color: #2dbecd;" class="line">
+            <p class="number">84</p>
+            <p class="symbol">Te</p>
+            <p class="infos">208.98</p>
+          </td>
+          <td style="background-color: #ffdcb9;" class="line">
+            <p class="number">85</p>
+            <p class="symbol">At</p>
+            <p class="infos">209.99</p>
+          </td>
+          <td style="background-color: #e61e50;" class="line">
+            <p class="number">86</p>
+            <p class="symbol">Rn</p>
+            <p class="infos">222.02</p>
+          </td>
+        </tr>
+        <!-----=======SEVEN======-------->
+        <tr>
+          <td>7</td>
+          <td style="background-color: #149b5f" class="line">
+            <p class="number">87</p>
+            <p class="symbol">Fr</p>
+            <p class="infos">223.02</p>
+          </td>
+          <td style="background-color: #0f69af;"  class="line">
+            <p class="number">88</p>
+            <p class="symbol">Ra</p>
+            <p class="infos">226.03</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">89</p>
+            <p class="symbol">-</p>
+            <p class="infos">103</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">104</p>
+            <p class="symbol">Rf</p>
+            <p class="infos">265.12</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">105</p>
+            <p class="symbol">Db</p>
+            <p class="infos">268.13</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">106</p>
+            <p class="symbol">Sg</p>
+            <p class="infos">271.13</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">107</p>
+            <p class="symbol">Bh</p>
+            <p class="infos">270</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">108</p>
+            <p class="symbol">Hs</p>
+            <p class="infos">277.15</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">109</p>
+            <p class="symbol">Mt</p>
+            <p class="infos">276.15</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">110</p>
+            <p class="symbol">Ds</p>
+            <p class="infos">281.16</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">111</p>
+            <p class="symbol">Rg</p>
+            <p class="infos">280.16</p>
+          </td>
+          <td style="background-color: #503291;" class="line">
+            <p class="number">112</p>
+            <p class="symbol">Cn</p>
+            <p class="infos">285.17</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">113</p>
+            <p class="symbol">Uut</p>
+            <p class="infos">284.18</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">114</p>
+            <p class="symbol">Fl</p>
+            <p class="infos">289.19</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">115</p>
+            <p class="symbol">Uup</p>
+            <p class="infos">288.19</p>
+          </td>
+          <td style="background-color: #ffc832;" class="line">
+            <p class="number">116</p>
+            <p class="symbol">Lv</p>
+            <p class="infos">293</p>
+          </td>
+          <td style="background-color: #ffdcb9;" class="line">
+            <p class="number">117</p>
+            <p class="symbol">Uus</p>
+            <p class="infos">294</p>
+          </td>
+          <td style="background-color: #e61e50;" class="line">
+            <p class="number">118</p>
+            <p class="symbol">Uuo</p>
+            <p class="infos">294</p>
+          </td>
+        </tr>
+
+        <tr class="line2">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+
+        <tr>
+          <td>*Lanthanoids</td>
+          <td>*</td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">57</p>
+            <p class="symbol">La</p>
+            <p class="infos">138.91</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">58</p>
+            <p class="symbol">Ce</p>
+            <p class="infos">140.12</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">59</p>
+            <p class="symbol">Pr</p>
+            <p class="infos">140.91</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">60</p>
+            <p class="symbol">Nd</p>
+            <p class="infos">144.24</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">61</p>
+            <p class="symbol">Pm</p>
+            <p class="infos">144.91</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">62</p>
+            <p class="symbol">Sm</p>
+            <p class="infos">150.36</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">63</p>
+            <p class="symbol">Eu</p>
+            <p class="infos">151.96</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">64</p>
+            <p class="symbol">Gd</p>
+            <p class="infos">157.25</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">65</p>
+            <p class="symbol">Tb</p>
+            <p class="infos">158.93</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">66</p>
+            <p class="symbol">Dy</p>
+            <p class="infos">162.50</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">67</p>
+            <p class="symbol">Ho</p>
+            <p class="infos">164.93</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">68</p>
+            <p class="symbol">Er</p>
+            <p class="infos">167.26</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">69</p>
+            <p class="symbol">Tm</p>
+            <p class="infos">168.93</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">70</p>
+            <p class="symbol">Yb</p>
+            <p class="infos">173.05</p>
+          </td>
+          <td style="background-color: #eb3c96;" class="line">
+            <p class="number">71</p>
+            <p class="symbol">Lu</p>
+            <p class="infos">174.97</p>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>*Actinoids</td>
+          <td>*</td>
+          <td style="background-color: #e1c3cd;" class="line">
+            <p class="number">89</p>
+            <p class="symbol">Ac</p>
+            <p class="infos">227.03</p>
+          </td>
+          <td style="background-color: #e1c3cd;" class="line">
+            <p class="number">90</p>
+            <p class="symbol">Th</p>
+            <p class="infos">232.04</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">91</p>
+            <p class="symbol">Pa</p>
+            <p class="infos">231.04</p>
+          </td>
+          <td  style="background-color: #e1c3cd;"class="line">
+            <p class="number">92</p>
+            <p class="symbol">U</p>
+            <p class="infos">238.03</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">93</p>
+            <p class="symbol">Np</p>
+            <p class="infos">237.05</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">94</p>
+            <p class="symbol">Pu</p>
+            <p class="infos">244.06</p>
+          </td>
+          <td style="background-color: #e1c3cd;" class="line">
+            <p class="number">95</p>
+            <p class="symbol">Am</p>
+            <p class="infos">243.06</p>
+          </td>
+          <td style="background-color: #e1c3cd;" class="line">
+            <p class="number">96</p>
+            <p class="symbol">Cm</p>
+            <p class="infos">247.07</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">97</p>
+            <p class="symbol">Bk</p>
+            <p class="infos">247.07</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">98</p>
+            <p class="symbol">Cf</p>
+            <p class="infos">251.08</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">99</p>
+            <p class="symbol">Es</p>
+            <p class="infos">252.08</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">100</p>
+            <p class="symbol">Fm</p>
+            <p class="infos">257.10</p>
+          </td>
+          <td style="background-color: #e1c3cd;" class="line">
+            <p class="number">101</p>
+            <p class="symbol">Md</p>
+            <p class="infos">258.10</p>
+          </td>
+          <td style="background-color: #e1c3cd;"  class="line">
+            <p class="number">102</p>
+            <p class="symbol">No</p>
+            <p class="infos">259.10</p>
+          </td>
+          <td style="background-color: #e1c3cd;" class="line">
+            <p class="number">103</p>
+            <p class="symbol">Lr</p>
+            <p class="infos">262.11</p>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <div class="legend">
+        <p>Legend:</p>
+        <input type="color" value="#b4dc96" />
+        <label for="nonmetal">Non-Metal</label><br>
+        <input type="color" value="#149b5f" />
+        <label for="alkali">Alkali Metal</label> <br>
+        <input type="color" value="#0f69af" />
+        <label for="alkali">Alkaline Earth Metal</label> <br>
+        <input type="color" value="#503291" />
+        <label for="metal">Transition Metal</label><br>
+        <input type="color" value="#2dbecd" />
+        <label for="metal">Metalloid</label> <br>
+        <input type="color" value="#ffdcb9" />
+        <label for="halogen">Halogen</label><br>
+        <input type="color" value="#e61e50" />
+        <label for="gas">Noble Gas</label><br>
+        <input type="color" value="#ffc832" />
+        <label for="metal">Post-Transition Metal</label>
+        <br>
+        <input type="color" value="#eb3c96" />
+        <label for="lanthanide">Lanthanide</label><br>
+        <input type="color" value="#e1c3cd" />
+        <label for="Actinide">Actinide</label>
+      </div>
+    </main>
+  </body>
+</html>
