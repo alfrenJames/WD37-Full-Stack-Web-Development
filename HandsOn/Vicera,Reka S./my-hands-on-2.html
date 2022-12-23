@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-     <!-- MAIN CSS-->
+    <!-- MAIN CSS-->
     <link rel="stylesheet" href="Public/CSS/style.css" />
 
     <title>My Hands On 2</title>
@@ -29,7 +28,7 @@
   <body>
     <main>
       <!-------------NAVBAR------------->
-    <nav>
+      <nav>
         <img
           class="logo"
           src="Public/images/kodigo-logo-transparent-png.png"
@@ -46,18 +45,26 @@
             <a class="links-hidden" href="my-hands-on-1.html"
               >HTML and CSS Hands On 1</a
             >
-            <a class="links-hidden" href="my-hands-on-2.html">Hands On 2</a>
-            <a class="links-hidden" href="my-hands-on-3.html">Hands On 3</a>
+            <a class="links-hidden" href="my-hands-on-2.html"
+              >HTML Hands On 2</a
+            >
+            <a class="links-hidden" href="my-hands-on-3.html"
+              >HTML and CSS Hands On 3</a
+            >
             <a class="links-hidden" href="my-hands-on-3-1.html">Hands On 3.1</a>
-            <a class="links-hidden" href="my-hands-on-4.html">Hands On 4</a>
+            <a class="links-hidden" href="my-hands-on-4.html"
+              >HTML and CSS Hands On 4</a
+            >
+            <a class="links-hidden" href="my-hands-on-5.html">Hands On 5</a>
             <a class="links-hidden" href="my-bootstrap-hands-on-1.html"
               >Hands On Bootstrap 1</a
             >
-            <a class="links-hidden" href="#">Hands On 5</a>
+            <a class="links-hidden" href="my-bootstrap-hands-on-2.html"
+              >Hands On Bootstrap 2</a
+            >
           </div>
         </div>
       </nav>
-
       <!-------------MAIN BODY------------->
       <div class="handsOn-container">
         <h1>HTML Hands On 2</h1>
@@ -118,6 +125,43 @@
               required
             />
             <button onclick="myPassword()">Submit</button>
+          </div>
+        </form>
+
+        <p>3. Define Registration Form with the following fields:</p>
+
+        <form>
+          <div class="form">
+            <label for="FirstName">First Name:</label>
+            <input type="text" placeholder="First Name" required />
+            <label for="middleName"> Middle Name:</label>
+            <input type="text" placeholder="Middle Name" required />
+            <label for="lastName">Last Name:</label><br />
+            <input type="text" placeholder="lastName" required />
+            <label for="birthday">Birthday:</label>
+            <input type="date" placeholder="date" required /><br />
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Email" required /> <br />
+            <label for="contact">Contact Number:</label>
+            <input type="number" placeholder="Contact Number" required /><br />
+            <label>City: <input list="City" name="myCity" /></label>
+            <datalist id="City">
+              <option value="Carmona"></option>
+              <option value="Cavite"></option>
+              <option value="Dasmarinas"></option>
+              <option value="Kawit"></option>
+              <option value="GMA"></option>
+              <option value="Silang"></option></datalist
+            ><br />
+            <label for="ContactTime">Preferred Contact time:</label><br />
+            <input type="checkbox" name="morning" />
+            <label for="morning">Morning</label>
+            <input type="checkbox" name="afternoon" />
+            <label for="afternoon">Afternoon</label>
+            <input type="checkbox" name="Evening" />
+            <label for="Evening">Evening</label><br />
+            <label for="Register">Register:</label>
+            <input type="submit" name="Register" />
           </div>
         </form>
       </div>
