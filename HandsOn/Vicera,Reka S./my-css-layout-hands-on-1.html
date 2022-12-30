@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Oregano:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- MAIN CSS-->
+    <link rel="stylesheet" href="Public/CSS/style.css" />
+
+    <title>CSS Layout Hands On 1</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav>
+      <img
+        class="logo"
+        src="Public/images/kodigo-logo-transparent-png.png"
+        alt="Logo"
+      />
+
+      <a class="links active" href="index.html">Home</a>
+      <a class="links" href="about.html">About</a>
+      <a class="links" href="my-bootstrap-hands-on-blog.html">Blog</a>
+
+      <div class="dropdown-menu">
+        <button class="menu-btn">Hands On Assignments</button>
+        <div class="menu-content">
+          <a class="links-hidden" href="my-hands-on-1.html"
+            >HTML and CSS Hands On 1</a
+          >
+          <a class="links-hidden" href="my-hands-on-2.html"
+            >HTML and CSS Hands On 2</a
+          >
+          <a class="links-hidden" href="my-hands-on-3.html"
+            >HTML and CSS Hands On 3</a
+          >
+          <a class="links-hidden" href="my-hands-on-3-1.html"
+            >HTML and CSS Hands On 3</a
+          >
+          <a class="links-hidden" href="my-hands-on-4.html"
+            >HTML and CSS Hands On 4</a
+          >
+          <a class="links-hidden" href="my-hands-on-5.html"
+            >HTML and CSS Hands On 5</a
+          >
+          <a class="links-hidden" href="my-bootstrap-hands-on-1.html"
+            >Hands On Bootstrap 1</a
+          >
+          <a class="links-hidden" href="my-bootstrap-hands-on-2.html"
+            >Hands On Bootstrap 2</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <h1>CSS Layout Hands On 1</h1>
+      <p
+        style="
+          text-align: center;
+          font-family: oregano;
+          color: #f73d93;
+          font-size: 30px;
+        "
+      >
+        Instruction:
+        <br />
+        Design the webpages as per the requirements of the image below. Use Flex
+        css properties to layout the webpages. <br />
+        1. Create a file holygrail1
+      </p>
+      <div class="head-flex">Header</div>
+      <div class="flex-container">
+        <div style="background-color: beige; width: 300px">Nav</div>
+        <div style="background-color: #fff; width: 1300px">Articles</div>
+        <div style="background-color: beige; width: 300px">Aside</div>
+      </div>
+      <div class="head-flex">Footer</div>
+      <p
+        style="
+          text-align: center;
+          font-family: oregano;
+          color: #f73d93;
+          font-size: 30px;
+        "
+      >
+        2. Create a file holygrail2
+      </p>
+
+      <div class="flex-container">
+        <ul class="flex-nav">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contacts</li>
+        </ul>
+        <header style="width: 100%; height: 100px; background-color: #009a7d">
+          Header
+        </header>
+
+        <div
+          style="
+            position: absolute;
+            z-index: -1;
+            margin-top: 100px;
+            display: flex;
+            height: 400px;
+          "
+        >
+          <article class="arti" style="background-color: #fff; width: 1500px">
+            Articles
+          </article>
+          <aside style="width: 380px; background-color: beige">Aside</aside>
+        </div>
+      </div>
+      <footer style="text-align: center">Footer</footer>
+
+      <p
+        style="
+          text-align: center;
+          font-family: oregano;
+          color: #f73d93;
+          font-size: 30px;
+        "
+      >
+        3.Create a file holygrail3
+      </p>
+      <header
+        style="
+          text-align: center;
+          width: 100%;
+          height: 100px;
+          background-color: #009a7d;
+        "
+      >
+        Header
+      </header>
+      <div class="flex-container">
+        <form style="text-align: left" action="">
+          <div style="width: 300px">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Your Name" />
+            <label for="phone">Phone:</label>
+            <input type="number" placeholder="your number" /><br />
+            <label for="email">Email:</label>
+            <input type="text" placeholder="your Email" />
+            <label for="Date">Date:</label>
+            <input type="date" /> <br />
+            <label
+              >Place:
+              <input list="Place" name="myPlace" placeholder="Select One"
+            /></label>
+            <datalist id="Place">
+              <option value="Carmona"></option>
+              <option value="Cavite"></option>
+              <option value="Dasmarinas"></option>
+              <option value="Kawit"></option>
+              <option value="GMA"></option>
+              <option value="Silang"></option></datalist
+            ><br />
+            <label for="dropOff">Preffered Drop-off:</label>
+            <input type="text" />
+            <button>Submit Booking</button>
+          </div>
+        </form>
+        
+        <div
+          style="
+            background-color: #fff;
+            width: 500px;
+            text-align: left;
+            padding-left: 50px;
+          "
+        >
+          <p>What vehicle do you inquire?</p>
+          <input type="radio" />
+          <label for="van">Van</label><br />
+          <input type="radio" />
+          <label for="jeep">Jeepney</label><br />
+          <input type="radio" />
+          <label for="tricycle">Tricycle</label>
+          <p>Extras:</p>
+          <input type="radio" />
+          <label for="van">Baby Seat</label><br />
+          <input type="radio" />
+          <label for="jeep">Wheelchair Access</label><br />
+          <input type="radio" />
+          <label for="tricycle">Stock tip</label>
+        </div>
+        <div style="width: 500px;">
+          <p>Aside</p>
+        </div>
+        <div style="background-color: beige;margin-left: 600px;width: 300px;" class="navba">
+          <a href="">Home</a>
+         <a href="">About</a>
+         <a href="">Contacts</a>
+        </div>
+      </div>
+
+      
+    </main>
+    <footer  style="
+          text-align: center;
+          width: 100%;
+          height: 100px;
+          background-color: #009a7d;
+        ">Footer</footer>
+  </body>
+</html>
