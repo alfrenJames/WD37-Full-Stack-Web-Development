@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a href="/index.html" class="d-flex align-items-center col-md-3 mb-4 text-dark text-decoration-none">
+                <img class="mb-2" src="/public/images/bootstrapIcon.png" alt="bootsrapIcon.png"><h2>Hands-On-1</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <header class="container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            
+                <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li class="nav-item"><a class="nav-link" href="/index.html" class="nav-link px-2 ">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/public/pages/welcome.html" class="nav-link px-2">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/public/pages/AngularBlog.html" class="nav-link px-2">Angular Blog</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Requirements
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/public/pages/req1.html">Requirement 1</a></li>
+                        <li><a class="dropdown-item" href="/public/pages/req2.html">Requirement 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/public/pages/ButtonDesign.html">Button Design</a></li>
+                        <li><a class="dropdown-item" href="#">Layout of Elements</a></li>
+                        <li><a class="dropdown-item" href="/public/pages/DropDown.html">Dropdown Elements</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#" class="nav-link px-2 link-dark">About</a></li>
+                </ul>
+                </header>
+            </div>
+        </nav>
+    </div>
+    <!-- Main -->
+    <main class="container">
+        <h1>Three Equal Column </h1> <br>
+        <p class="mb-1">Get three equal width colums with space between Starting at Desktop amd scaling large Desktop On mobile Devices  Tables and Below colums will automaticaly stack</p>
+                <div class="container row justify-content-between mb-5">
+                    <div class="col-4 w-25 text-bg-danger">Column 1</div>
+                    <div class="col-4 w-25 text-bg-dark">Column 2</div>
+                    <div class="col-4 w-25 text-bg-info">Column 3</div>
+                </div>
+        <h1>Three UnEqual Column </h1> <br>
+        <p class="mb-1">Get three equal width colums with space between Starting at Desktop. Tables and Below colums will automaticaly stack</p>
+                <div class="container col justify-content-between mb-5">
+                    <div class="col-4 w-25 text-bg-danger">Column 1</div>
+                    <div class="col-4 w-50 text-bg-dark">Column 2</div>
+                    <div class="col-4 w-75 text-bg-info">Column 3</div>
+                </div>
+        <h1>Two UnEqual Column </h1> <br>
+            <p class="mb-1">Get three equal width colums with space between Starting at Desktop amd scaling large Desktop On mobile Devices  Tables and Below colums will automaticaly stack</p>
+                <div class="container row mb-5">
+                    <div class="col-4 w-75 text-bg-danger">Column 1</div>
+                    <div class="col-4 w-25 text-bg-dark">Column 2</div>
+                </div>
+        <h1>One Column </h1> <br>
+            <p class="mb-1">Get three equal width colums with space between Starting at Desktop amd scaling large Desktop On mobile Devices  Tables and Below colums will automaticaly stack</p>
+                <div class="container row mb-5">
+                    <div class="col-4 w-100 text-bg-danger">Column 1</div>      
+                </div>
+    </main>
+</body>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>

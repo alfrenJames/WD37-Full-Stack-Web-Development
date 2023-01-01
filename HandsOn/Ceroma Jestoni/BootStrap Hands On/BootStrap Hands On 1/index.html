@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/scss/bootstrap.scss">
+    <link rel="stylesheet" href="public/stylesheet/sass/style.scss">
+    <link rel="stylesheet" href="public/stylesheet/css/modal.css">
+</head>
+<body>
+<!-- Nav -->
+<div class="container">
+  <nav class="navbar navbar-expand-lg">
+      <a href="/index.html" class="d-flex align-items-center col-md-3 mb-4 text-dark text-decoration-none">
+          <img class="mb-2" src="/public/images/bootstrapIcon.png" alt="bootsrapIcon.png"><h2>Hands-On-1</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <header class="container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+      
+          <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li class="nav-item"><a class="nav-link" href="#" class="nav-link px-2 link-secondary">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="public/pages/welcome.html" class="nav-link px-2 link-dark">Welcome</a></li>
+              <li class="nav-item"><a class="nav-link" href="public/pages/AngularBlog.html" class="nav-link px-2 link-dark">Angular Blog</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Requirements
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="public/pages/req1.html">Requirement 1</a></li>
+                  <li><a class="dropdown-item" href="public/pages/req2.html">Requirement 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="public/pages/ButtonDesign.html">Button Design</a></li>
+                  <li><a class="dropdown-item" href="public/pages/EqualColumn.html">Layout of Elements</a></li>
+                  <li><a class="dropdown-item" href="public/pages/DropDown.html">Dropdown Elements</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#" class="nav-link px-2 link-dark">About</a></li>
+          </ul>
+          </header>
+      </div>
+  </nav>
+</div>
+
+<!-- Main -->
+    <div class="container text-center">
+      <!-- <div class="modal modal-signin position-static d-block py-5" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h1 class="fw-bold mb-0 fs-2">Log-In</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Log In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <main class="form-signin w-100 m-auto">
+        <form>
+          <img class="mb-4" src="public/images/bootstrapIcon.png" alt="bootstrapIcon.png">
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+        </form>
+      </main>
+  
+    </div>
+    
+    
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>

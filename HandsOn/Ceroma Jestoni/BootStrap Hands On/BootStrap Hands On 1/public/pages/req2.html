@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requirement 2</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- nav -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a href="/index.html" class="d-flex align-items-center col-md-3 mb-4 text-dark text-decoration-none">
+                <img class="mb-2" src="/public/images/bootstrapIcon.png" alt="bootsrapIcon.png"><h2>Hands-On-1</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <header class="container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            
+                <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li class="nav-item"><a class="nav-link" href="/index.html" class="nav-link px-2 ">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/public/pages/welcome.html" class="nav-link px-2">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/public/pages/AngularBlog.html" class="nav-link px-2">Angular Blog</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Requirements
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/public/pages/req1.html">Requirement 1</a></li>
+                        <li><a class="dropdown-item" href="/public/pages/req2.html">Requirement 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/public/pages/ButtonDesign.html">Button Design</a></li>
+                        <li><a class="dropdown-item" href="/public/pages/EqualColumn.html">Layout of Elements</a></li>
+                        <li><a class="dropdown-item" href="/public/pages/DropDown.html">Dropdown Elements</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#" class="nav-link px-2 link-dark">About</a></li>
+                </ul>
+                </header>
+            </div>
+        </nav>
+    </div>
+    <h1 class="text-center display-4">Requirement 2</h1>
+    <main class="container d-flex justify-content-center">
+        
+        <table class="table table-bordered w-75">
+            <tr>
+                <th scope="col">Button</th>
+                <th scope="col">Link</th>
+                <th scope="col">Class</th>
+            </tr>
+                <tbody>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn border-2 border">Default</button></td>
+                        <td><a class="btn border" href="#">default</a></td>
+                        <td><p style="background-color: white;">btn</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-primary border-2 border">primary</button></td>
+                        <td><a class="btn btn-primary border" href="#">primary</a></td>
+                        <td><p style="background-color: white;">btn btn-primary</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-info border-2 border">info</button></td>
+                        <td><a class="btn btn-info border" href="#">info</a></td>
+                        <td><p style="background-color: white;">btn btn-info</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-success border-2 border">success</button></td>
+                        <td><a class="btn btn-success border" href="#">success</a></td>
+                        <td><p style="background-color: white;">btn btn-success</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-warning border-2 border">warning</button></td>
+                        <td><a class="btn btn-warning border" href="#">warning</a></td>
+                        <td><p style="background-color: white;">btn btn-warning</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-danger border-2 border">danger</button></td>
+                        <td><a class="btn btn-danger border" href="#">danger</a></td>
+                        <td><p style="background-color: white;">btn btn-danger</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-inverse btn-danger border-2 border">danger</button></td>
+                        <td><a class="btn btn-inverse btn-danger border" href="#">danger</a></td>
+                        <td><p style="background-color: white;">btn btn-danger Inverse "Not working"</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-link">link</button></td>
+                        <td><a class="btn btn-link" href="#">link</a></td>
+                        <td><p style="background-color: white;">btn btn-link</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-primary btn-lg">Large</button></td>
+                        <td><a class="btn btn-primary btn-lg" href="#">Large</a></td>
+                        <td><p style="background-color: white;">btn btn-primary btn-lg</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-primary btn-sm">Small</button></td>
+                        <td><a class="btn btn-primary btn-sm" href="#">Small</a></td>
+                        <td><p style="background-color: white;">btn btn-primary btn-sm</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-primary btn-mini">Mini</button></td>
+                        <td><a class="btn btn-primary btn-mini" href="#">Mini</a></td>
+                        <td><p style="background-color: white;">btn btn-primary btn-mini "Not working"</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-primary btn-block">block</button></td>
+                        <td><a class="btn btn-primary btn-block" href="#">block</a></td>
+                        <td><p style="background-color: white;">btn btn-primary btn-block "Not working"</p></td>
+                    </tr>
+                    <tr class="bg-light">
+                        <td scope="col"><button class="btn btn-primary disabled">disabled</button></td>
+                        <td><a class="btn btn-primary disabled" href="#">disabled</a></td>
+                        <td><p style="background-color: white;">btn btn-primary disabled</p></td>
+                    </tr>
+                </tbody>
+        </table>
+    </main>
+</body>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>
