@@ -1,0 +1,211 @@
+.hdimg {
+  position: relative;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+}
+.tagimg {
+  position: absolute;
+  top: 0%;
+  left: 35%;
+}
+.hdimg h1 {
+  position: absolute;
+  letter-spacing: 5px;
+  color: rgb(172, 48, 48);
+  right: 40%;
+  top: -10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.btnn {
+  position: relative;
+  z-index: 3;
+  border: 1px;
+
+}
+.hbtn {
+  position: relative;
+  background-color: rgb(197, 86, 86);
+  color: rgb(255, 162, 162);
+  border: 1px solid black;
+  transition-duration: 1s;
+  border-radius: 2px;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 20px;
+  left: 30%;
+}
+.hbtn:hover {
+  background-color: rgb(73, 39, 39);
+  color: bisque;
+}
+.tbtn {
+  position: absolute;
+  background-color: rgb(197, 86, 86);
+  color: rgb(255, 162, 162);
+  border: 1px solid black;
+  transition-duration: 1s;
+  border-radius: 2px;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 20px;
+  left: 45%;
+}
+.tbtn:hover {
+  background-color: rgb(73, 39, 39);
+  color: bisque;
+}
+.lnk {
+  position: absolute;
+  background-color: rgb(197, 86, 86);
+  color: rgb(255, 162, 162);
+  border: 1px solid black;
+  transition-duration: 1s;
+  border-radius: 2px;
+  padding: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  left: 60%;
+}
+.lnk:hover {
+  background-color: rgb(73, 39, 39);
+  color: bisque;
+}
+.ImgHeader {
+  position: relative;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+}
+.headerr h2 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  letter-spacing: 5px;
+  color: rgb(201, 130, 130);
+  text-overflow: clip;
+}
+.headerr h3 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  letter-spacing: 5px;
+  color: rgb(189, 81, 81);
+}
+.headerr h4 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  letter-spacing: 5px;
+  color: rgb(172, 48, 48);
+}
+.headerr h5 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  letter-spacing: 5px;
+  color: rgb(189, 81, 81);
+}
+.headerr h6 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  letter-spacing: 5px;
+  color: rgb(201, 130, 130);
+}
+
+.headerr img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px;
+  border-color: rgb(153, 116, 116);
+  border-style: groove;
+  top: 15%;
+  right: 350px;
+  position: absolute;
+}
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+th {
+  background-color: rgb(4, 180, 180);
+  color: aliceblue;
+  font-weight: bold;
+  height: 40px;
+  width: 150px;
+}
+td {
+  height: 40px;
+  width: 150px;
+}
+
+.arte {
+  overflow: auto;
+}
+
+.c1 article {
+  margin: 10px 1px 15px 50px;
+}
+div.list{
+  background-color: rgb(124, 121, 121, 0.70);
+  width: 150px;
+    min-height: 50px;
+    margin:0px auto;
+    padding: 10px;
+    border:1px solid;
+    margin-bottom: 10px;
+}
+div.tables{
+  background-image: url("/Image/Background2.png");
+  border: 0px;
+  width: 950px;
+    min-height: 950px;
+    margin:0px auto;
+    padding: 20px;
+    border:10px solid;
+    border-radius: 10px;
+}
+div.tables div.tables1, div.tables2{
+  background-color: rgba(10, 166, 238, 0.75);
+  border-radius: 10px;
+}
+div.bodyMain{
+  background-image: url(/Image/VidArticleList.jpg);
+  width: 950px;
+    min-height: 300px;
+    margin:0px auto;
+    padding: 20px;
+    border:10px solid;
+}
+  div.bodyMain div.article{
+  background-color: rgb(124, 121, 121, 0.70);
+  width: 350px;
+    min-height: 10px;
+    margin: 0px auto;
+    margin-left: 150px;
+    padding: 10px;
+    border:1px solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+  #cartoonTables tr:nth-child(even){
+    background-color: #f5f3f3;
+  }
+  div.list{
+  background-color: rgb(124, 121, 121, 0.70);
+  width: 150px;
+    min-height: 50px;
+    margin:0px auto;
+    padding: 10px;
+    border:1px solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}

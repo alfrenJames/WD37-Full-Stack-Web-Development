@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Stylesheet/Style.css">
+    <link rel="stylesheet" href="/Stylesheet/signup.css">
+</head>
+<body class="indexBody">
+    <div class="maincontent">
+        <form id="formSignUp" onsubmit="return validateform()">
+            <label for="fName">First Name:</label><br/>
+                <input name="fName" id="fName" type="text"><br/>
+            <label for="lastName">Last Name:</label><br/>
+                <input id="lastName" type="text"><br/>
+            <label for="middleName">Middle Name:</label><br/>
+                <input id="middleName" type="text"><br/>
+            <label for="dteTime">Birthdate:</label><br/>
+                <input id="dteTime" type="date" required><br/>
+            <label for="emailAdd">Email:</label><br/>
+                <input type="email" id="emailAdd" required><br/>
+            <label for="contactNumber">Contact Number:</label><br/>
+                <input type="number" name="" id="contactNumber" required><br/>
+            <label for="selectCity">City:</label><br/>
+                <select name="selectCity" id="selectCity" required>
+                    <option value="Manila">Manila</option>
+                    <option value="Marikina">Marikina</option>
+                    <option value="Antipolo">Antipolo</option>
+                </select><br/>
+            <label for="preferredTime">Preferred Contact Time:</label><br/>
+                    <input type="checkbox" name="" id="preferredTime">
+            
+            <input type="submit" value="Submit">
+            <button type="button" onclick="document.location='/index.html'">Cancel</button>
+        </form>
+    </div>
+</body>
+<script src="/vscode/signup.js">
+
+</script>
+</html>

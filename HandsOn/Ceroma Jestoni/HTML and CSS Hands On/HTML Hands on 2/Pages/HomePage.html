@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Stylesheet/Style.css">
+    <link rel="stylesheet" href="/Stylesheet/HomePage.css">
+</head>
+<body class="indexBody">
+
+
+
+<!-- Nav bar -->
+<div class="navigation">
+<button class="buttonHome">HomePage</button>
+<button>Hands-On</button>
+<button onclick="location.href='https://kodego.ph/'">KodeGo</button>
+<button onclick="location.href='https://github.com/'">GitHub</button>
+<button onclick="location.href='https://www.figma.com/'">Figma</button>
+
+</div>
+
+<!--Profile Division  -->
+<div class="welcomeContainer">
+            <h1 class="welcomeMessage">Welcome</h1>
+            <h1>Hands-On-Collection</h1>
+            <img src="/images/ProfilePic.png" alt="ProfilePic">
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, alias dolores?
+                Facilis deleniti corrupti perspiciatis ex adipisci dolorem quos quae culpa, mollitia, dolore a natus officiis molestiae maxime aperiam quidem, inventore consequuntur. Amet voluptatibus, sapiente aut vitae maxime excepturi impedit aperiam voluptates dicta culpa sequi officiis explicabo aliquid suscipit dignissimos qui assumenda est, itaque aliquam, quo repellat perspiciatis numquam omnis? Rem, vel molestias alias error officia nihil reprehenderit deserunt facilis voluptate aliquam cumque sint optio? Ab tempora, asperiores officia earum, consequatur, pariatur laboriosam cumque nihil nemo ad temporibus soluta voluptates deserunt consequuntur vitae consectetur. Et doloremque vero porro deleniti temporibus?
+            </article>
+            <a href="/index.html">Log Out</a>
+        <!-- Change Password Modal Onlick -->
+        <div class="changePasswordDivClicker">
+            <button onclick="document.getElementById('id01').style.display='block'">Change Password</button>
+        </div>
+        
+        <!-- Change Password Main Division -->
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+                class="close" title="Close Modal">&times;</span>
+
+                <div class="changePasswordDiv">
+                    <form action="">
+                    <h2>CHANGE PASSWORD</h1>
+                        <label for="oldPass">Old Password:</label><br />
+                            <input type="password" id="oldPass" name="oldPass"><br />
+                        <label for="newPass">New Password:</label><br />
+                            <input type="password" id="newPass" name="newPass"> <br />
+                        <input type="submit" value="Change" class="submitBtn">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    </form>   
+                </div>
+        </div>
+
+</div>
+
+
+
+</body>
+</html>
