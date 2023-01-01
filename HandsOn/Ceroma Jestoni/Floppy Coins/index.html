@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            }
+            h3 {
+            text-align: center;
+            }
+            body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Helvetica;
+            }
+            .source {
+            margin-top: 2em;
+            }
+            .game canvas {
+                margin: 0 auto;
+            }
+            @media all and (max-height: 480px) {
+                h1 {
+                display: none;
+                }
+            }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>Flappy Coin <img src="/public/images/coin.png" alt="coin"></h3>
+         <canvas id="canvas" width="288" height="512"></canvas>
+
+         <h1>Flappy Coin</h1>
+         <div class="game"></div>
+     
+         <script type="text/javascript">
+           var el = document.getElementsByClassName('game'),
+             game = new Game({
+               el: el[0],
+               width: Math.min(window.innerWidth - 20, 800),
+               height: Math.min(window.innerHeight - 40, 600),
+               speed: window.innerWidth < 480 ? 0.8 : 1
+             });
+           game.start();
+         </script>
+</body>
+<script src="/public/Script/script.js" type="text/javascript"></script>
+</html>
