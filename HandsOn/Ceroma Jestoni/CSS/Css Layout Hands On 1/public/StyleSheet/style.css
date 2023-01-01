@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 10px;
+}
+header{
+    flex: 1;
+    background-color: bisque;
+}
+nav {
+    background-color: rgb(85, 204, 101);
+    flex: 1;
+}
+article {
+    flex: 5;
+    background-color: rgb(118, 226, 230);
+}
+aside {
+    flex: 1;
+    background-color: rgb(167, 103, 226);
+}
+main {
+    display: flex;
+    flex: 5;
+    flex-direction: row;
+}
+
+footer {
+    flex: 1;
+    background-color: bisque;
+}
+
+
