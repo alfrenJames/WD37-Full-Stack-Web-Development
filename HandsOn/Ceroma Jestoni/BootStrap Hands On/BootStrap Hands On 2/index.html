@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/style/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="display-1 text-center">BootStrap Hands on 2</h1>
+        <h2 class="display-5 p-5 text-muted">Background Utilities</h2>
+            <p class="p-3 m-0 bg-primary text-light ">This is default Primary Background</p>
+            <p class="p-3 m-0 bg-secondary text-light bg-opacity-75">This is 75% Opacity Secondary Background</p>
+            <p class="p-3 m-0 bg-info text-light bg-opacity-50">This is 50% opacity info Background</p>
+            <p class="p-3 m-0 bg-danger bg-opacity-25">This is 25% danger success background</p>
+            <p class="p-3 m-0 bg-success bg-opacity-10">This is 10% opacity success background</p>
+            <h2 class="display-5 p-5 text-muted">Border Utilities</h2>
+
+        <div class="row justify-content-center">
+            <img class="rounded mx-auto my-5 border border-primary border-start-0 border-end-0 p-2" src="/public/Images/image.png" alt="" style="width: 100px;">
+            <img class="rounded-circle mx-auto my-5 border border-primary p-2" src="/public/Images/image.png" alt=""  style="width: 100px;">
+            <img class="rounded mx-auto my-5 border border-primary border-end-0 p-2" src="/public/Images/image.png" alt=""  style="width: 100px;">
+        </div> 
+            <h2 class="display-5 p-5 text-muted">Color Utilities</h2>
+                <div class="container w-50">
+                    <table class="table table-dark text-light mx-auto table-bordered table-striped">
+                        <thead>
+                          <tr class="border-2 border-light">
+                            <th scope="col">Result</th>
+                            <th scope="col">Class Utilities</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-primary">Primary Default Text</td>
+                            <td>text-primary</td>
+                          </tr>
+                          <tr>
+                            <td class="text-danger text-opacity-50">Danger with 50% Opacity</td>
+                            <td>Text Danger Text-opcaity-25</td>
+                          </tr>
+                          <tr>
+                            <td class="text-success text-opacity-25">Success with 25% Opacity</td>
+                            <td>text success text opacity 25</td>
+                          </tr>
+                          <tr>
+                            <td class="text-light text-opacity-75">light opacity 75%</td>
+                            <td>text light text opacity 75</td>
+                          </tr>
+                          <tr>
+                            <td class="text-muted">text Muted</td>
+                            <td>text Muted</td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                </div>
+        <h2 class="display-5 p-5 text-muted">Display Utilities</h2>
+            <div class="container-fluid w-50 bg-primary">
+                <div class="d-lg-none d-md-block d-block">
+                    <img class="#" src="/public/Images/image.png" alt="" style="width: 100px;">
+                    <img class="#" src="/public/Images/twitter.png" alt=""  style="width: 100px;">
+                </div>
+            </div>
+            <div class="d-lg-block d-md-none d-block container-fluid w-50 bg-secondary p-3">
+                <img class="row" src="/public/Images/fbIcon.ico" alt="" style="width: 100px;">
+            </div>
+            <span class=" d-block d-md-none d-lg-block p-2 bg-secondary container-fluid w-50 bg-primary">
+                <img class="row" src="/public/Images/image.png" alt=""  style="width: 100px;">
+            </span>
+        </div>
+
+    </body>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>
