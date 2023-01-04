@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class=" bg-dark d-flex column">
+        <div>
+            <h1 class="d-flex ms-5 text-white" >Joven's Karinderya</h1>
+        </div>
+       <div class="ms-auto me-2 btn-danger">
+       
+        <div class="d-flex justify-content-end">
+        <button class="btn btn-success rounded-0 m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Inventory</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Karinderya Menu</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body table-group-divider table-dark">
+                    <p class="text-dark">List of Available items</p>
+                    <table id="content-table" class="table text-dark table-striped" style="width:450px; margin: 1vh;">
+                        <thead>
+                            <th>Item ID</th>
+                            <th>Item Name</th>
+                            <th>Item Price</th>
+                            <th>Item Category</th>
+                            <th>Action</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pm1</td>
+                                <td>Adobo</td>
+                                <td>150</td>
+                                <td>Viand</td>
+                                <td>
+                                    <button class="btn btn-info">Edit</button> <br>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>pm2</td>
+                                <td>Sisig</td>
+                                <td>100</td>
+                                <td>Viand</td>
+                               <td>
+                                    <button class="btn btn-info">Edit</button> <br>
+                                    <button class="btn btn-danger">Delete</button>
+                               </td> 
+                            </tr>
+                            <tr>
+                                <td>pm3</td>
+                                <td>Afritada</td>
+                                <td>168</td>
+                                <td>Viand</td>
+                                <td>
+                                    <button class="btn btn-info">Edit</button> <br>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>pm4</td>
+                                <td>Tinola</td>
+                                <td>150</td>
+                                <td>Viand</td>
+                                <td>
+                                    <button class="btn btn-info">Edit</button> <br>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>J1</td>
+                                <td>Buko Juice</td>
+                                <td>100</td>
+                                <td>Drinks</td>
+                                <td>
+                                    <button class="btn btn-info">Edit</button> <br>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>J2</td>
+                                <td>Sago't Gulaman</td>
+                                <td>25</td>
+                                <td>Drinks</td>
+                                <td>
+                                    <button class="btn btn-info">Edit</button> <br>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-primary">Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+    </nav>   
+    <section id="Dish" style="height: 45vh;">
+        <div class="d-flex justify-content-center">
+            <div id="Dish" class="row">
+                <div class="card h-100 m-4" style="width: 18rem;">
+                    <h1 class="text-danger">Adobo</h1>
+                    <img class="h-30" src="images/adobo.jpg" alt="">
+                    <p>Good for: 3-4 person</p>
+                    <h4>Price: 150Php</h4>
+                    <li class="text-primary">Viand</li>
+                </div>
+                <div class="container-fluid card m-4" style="width: 18rem;">
+                    <h1 class="text-danger">Sisig</h1>
+                    <img class="h-30" src="images/sisig.jpg" alt="">
+                    <p>Good for 1-2 person</p>
+                    <h4>Price:100Php</h4>
+                    <li class="text-primary">Viand</li>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <h1 class="text-danger">Afritada</h1>
+                    <img class="h-30" src="images/afritada.jpg" alt="">
+                    <p>Good for 4-5 person</p>
+                    <h4>Price: 168Php</h4>
+                    <li class="text-primary">Viand</li>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <h1 class="text-danger">Tinola</h1>
+                    <img class="h-30" src="images/tinola.jpg" alt="">
+                    <p>Good for 3-5 person</p>
+                    <h4>Price: 150Php</h4>
+                    <li class="text-primary">Viand</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Juice"  style="height: 45vh;">
+       <div class="d-flex justify-content-center">
+            <div class="row">
+                <div class="card m-4 mt-0 " style="width: 18rem;">
+                    <h1 class="text-danger">Buko Juice</h1>
+                    <img class="h-30" src="images/buko.jpg" alt="">
+                    <p>Buy 1 Take 1</p>
+                    <h4>Price: 100Php</h4>
+                    <li class="text-primary">Drinks</li>
+                </div>
+                <div class="m-4 mt-0 "style="width: 18rem;"></div>
+                <div class="card h-100 mt-0 m-4" style="width: 18rem;">
+                    <h2 class="text-danger">Sago't Gulaman</h2>
+                    <img class="h-30" src="images/gulaman.jpg" alt="">
+                    <h4>Price: 25Php</h4>
+                    <li class="text-primary">Drinks</li>
+                </div>
+                <div class="m-4 mt-0 "style="width: 18rem;"></div>
+            </div>
+       </div>
+    </section>
+</body>
+<footer class="bg-dark p-1 text-light text-center">
+    <p>Jovencuritao06@gmail.com</p>
+</footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>
