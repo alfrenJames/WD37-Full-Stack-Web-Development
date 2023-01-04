@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Background Utilities</h1>
+        <div class="bg-primary p-2 text-light">This is default primary background</div>
+        <div class="bg-secondary p-2 text-light " style="--bs-bg-opacity:.75;">This is 75% opacity secondary background</div>
+        <div class="bg-info p-2 text-light " style="--bs-bg-opacity:.5;">This is 50% opacity info background</div>
+        <div class="bg-danger p-2 text-light " style="--bs-bg-opacity:.25;">This is 25% danger success background</div>
+        <div class="bg-light p-2 text light"  style="--bs-bg-opacity:.1;">This is 10% opacity success background</div>
+    </div>
+    <div class="container">
+        <h1>Border Utilities</h1>
+        <img class="border-top border-bottom border-primary" src="images/qwerty2.png" alt="">
+        <img class="border border-danger rounded-circle mb-5" src="images/qwerty2.png" alt="">
+        <img class="border border-primary border-end-0" src="images/qwerty2.png" alt="">
+    </div>
+    <div class="container">
+        <h1>Color Utilities</h1>
+        <table class="table table-dark table-striped table-bordered">
+            <thead>
+                <th>Result</th>
+                <th>Class Utilities</th>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td class="text-primary">Primary Default Text</td>
+                    <td>text-primary</td>
+                </tr>
+                <tr>
+                    <td class="text-danger" style="--bs-text-opacity: .5;">Danger with 50% opacity</td>
+                    <td>text-danger text-opacity</td>
+                </tr>
+                <tr>
+                    <td class="text-success" style="--bs-text-opacity:.25;">Success with 25% opacity</td>
+                    <td>text-success text-opacity-25</td>
+                </tr>
+                <tr>
+                    <td class="text-light" style="--bs-text-opacity:.75;">light with 75% opacity</td>
+                    <td>text-light text-opacity-75</td>
+                </tr>
+                <tr>
+                    <td class="text-muted">This muted Text</td>
+                    <td>text muted</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h1>Display Utilities</h1>
+        <div class="bg-primary">
+            <div class="d-inline">
+                <img class=" d-none d-md-block d-lg-none" src="images/ironman.png" alt="">
+            </div>
+            <div class="d-inline">
+                <img class="d-md-block d-lg-none"  src="images/starwars.png" alt="">
+            </div>
+        </div>
+            <div class="d-block">
+                <div class="bg-secondary">
+                    <img class="d-sm-none d-lg-block" src="images/ironman.png" alt="">
+                </div>
+                <div class="bg-secondary">
+                    <img class="d-sm-none d-md-block" src="images/starwars.png" alt="">
+                </div>
+            </div>
+        
+    </div>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>
