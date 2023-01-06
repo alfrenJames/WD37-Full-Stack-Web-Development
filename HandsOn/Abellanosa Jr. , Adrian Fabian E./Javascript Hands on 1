@@ -1,0 +1,119 @@
+//dataTypes
+function dataTypes(){
+let numberVar = 50;
+let stringString = 'Test';
+let isBoolean = true;
+let arr = [1,2,3,4,5];
+let nothing = null;
+
+console.log("Number: ", numberVar, typeof numberVar);
+console.log("String ", stringString, typeof stringVar);
+console.log("Boolean ", isBoolean, typeof isBoolean);
+console.log("Array ", arr, typeof arr);
+console.log("Nothing ", nothing, typeof nothing);
+}
+//mathematicalOperations
+function mathematicalOperations(){
+let number1 = 1;
+let number2 = 2;
+
+sum = number1 + number2;
+minus = number1 - number2;
+mult = number1 * number2;
+divide = number1 / number2;
+exponent =  number1 ** number2;
+modulus = number2 % number1;
+increment = ++number1;
+decreement = --number2;
+
+
+arraybasicOP = ["Sum: " + sum, "Minus: " + minus, "Mult: " + mult, "Divide: " + divide, "Exponent: " + exponent,"Modulus: " + modulus];
+
+console.log(arraybasicOP);
+console.log("increement :" + decreement);
+console.log("decrement :" + decreement);
+}
+//assignmentOperators
+function assignmentOperators(){
+let x = 10;
+
+let equals = 5;
+let plusEquals = x += 5;
+let minusEquals = x -= 5;
+let timesEquals = x *= 5;
+let divideEquals = x /= 5;
+let exponentEquals = x **= 5;
+let modulusEquals = x %= 5;
+
+let AssignOp = [equals, plusEquals, minusEquals, timesEquals, divideEquals, exponentEquals, modulusEquals];
+
+console.log(AssignOp);
+}
+//logicalOperators
+function logicalOperators(){
+face = "Makini";
+gender = "Lalak";
+
+if (face == "Makinis" && gender =="Lalaki"){
+    console.log("Isa kang Hokage")
+}else if ( face == "Makinis" || gender == "lalaki"){
+    console.log("D ka sure");
+}else if (!(face == "Makinis" && gender == "lalaki")){
+    console.log("Isa kang! isa lang");
+}else{
+    console.log("Iwan ko sayo");
+}
+}
+
+//ternaryOperators 
+function ternaryOperators(){
+ let gender = "female";   
+ let baby = (gender == "male") ? 'Its a boy':'Its a girl';
+ console.log(baby);
+}
+
+//BlankAray
+function blankArray(){
+blankArray = [];
+blankArray.push("1st");
+console.log("1st push:" + blankArray);
+blankArray.push("2nd");
+console.log("2nd push:" + blankArray);
+blankArray.push("3rd");
+console.log("3rd push:" + blankArray);
+blankArray.push("4th");
+console.log("4th push:" + blankArray);
+blankArray.push("5th");
+console.log("5th push:" + blankArray);
+}
+
+//ifElse
+function ifElse(){
+    face = "Makini";
+    gender = "Lalak";
+    
+    if (face == "Makinis" && gender =="Lalaki"){
+        console.log("Isa kang Hokage")
+    }else if ( face == "Makinis" || gender == "lalaki"){
+        console.log("D ka sure");
+    }else if (!(face == "Makinis" && gender == "lalaki")){
+        console.log("Isa kang! isa lang");
+    }else{
+        console.log("Iwan ko sayo");
+    }
+}
+
+//switchCase
+function switchCase()
+let x = "iwan";
+
+switch(x){
+    case "motor":
+        console.log("i have a motor");
+    break;
+    case "4wheels":
+        console.log("i have 4 wheels");
+    break;
+    default:
+        console.log("naka paa or iwan");
+}
