@@ -1,0 +1,139 @@
+{
+    console.log("***************** Data types***************")
+    let stringVar =`String`
+console.log("String:",typeof(stringVar))
+}
+{let numberVar = 1
+    console.log("Number:",typeof(numberVar))
+}
+{let objectVar = [`Object 1`,`Object 2`,`Object 3`]
+    console.log("Object:",typeof(objectVar))
+}
+{
+    console.log("***********Arithmetic Operators***********")
+}
+// given
+    var x = 1, y = 1, z = 1.1, push=[], loop, level;
+{
+   
+   let addition = x+y 
+   console.log("x+y = ",addition)
+   let subtraction = x-y
+   console.log("x-y = ",subtraction)
+    let multiplication = x*y
+    console.log("(x)(y) = ",multiplication)
+    let exponentiation = x**y
+    console.log("x^y = ", exponentiation)
+    let division = x/y
+    console.log("x/y = ",division)
+    let modulus = x%z
+    console.log("x%1.1z = ",modulus)
+    let increment = x++
+    console.log("x++ =",increment)
+    let decrement = x--
+    console.log("x-- =",decrement)
+}
+{
+    console.log("*******************************************")
+}
+{
+    console.log("************Assignment Operators**********")
+    x = 1
+    y = 1
+    x += y
+    console.log("y += y",x)
+    x = 1
+    y = 1
+    x -= y
+    console.log("x -= y",x)
+    x = 1
+    y = 1
+    x *= y
+    console.log("x *= y",x)
+    x = 1
+    y = 1
+    x /= y
+    console.log("x /= y",x)
+    x = 1
+    y = 1
+    x %= z
+    console.log("x &= y",x)
+    x = 1
+    y = 1
+    x **= y
+    console.log("x ** y",x)
+}
+{
+console.log("********Conditional Statements*********")
+console.log("   *******Logical Operators*******")
+
+    var age = 65;
+    if (age <13 || age>=60){
+        console.log("prone to viruses");
+        if (age < 1 ){
+            console.log("Infants");
+        }
+        else if (age >=1 && age < 3){
+            console.log("Todlers")
+        }
+        else if (age >= 3 && age <6){
+            console.log("Preschool")
+        }
+        else if (age >= 6 && age < 11){
+            console.log("Middle Childhood")
+        }
+        else if (age >= 11 && age < 13){
+            console.log("Young Teens")
+        }
+        else{
+            console.log("Aging");
+            if (age >= 60){
+                console.log("Senior Citizen")
+            }
+        }
+    }
+    else
+    {
+        console.log("healthy")
+        if (age >= 13 && age < 20){
+            console.log("Teenagers")
+        }
+        else if (age >=20 && age < 21){
+            console.log("Transition to adulthood")
+        }
+        else if (age >= 21 && age <=25){
+            console.log("Adulthood")
+        }
+      
+    }
+    
+}
+console.log("*********************Ternary Operator**********************")
+{
+    var prone =(age <13 || age>=60) ? "Prone to viruse":"Strong Immune";
+    console.log(prone);
+}
+{
+    console.log("***********Push and loop of array***********")
+
+    push.push(`person1`,`person2`,`person3`,`person4`, `person5`,)
+   
+    for (loop=0;loop <push.length; loop++){
+        console.log(push[loop]);
+    }
+}
+{
+    console.log("*************Switch statement**************")
+    level = 1;
+    switch(level){
+        case 1:
+            console.log(`stage 1`);
+        break;
+        case 2:
+            console.log(`stage 2`);
+        break;
+        case 3:
+            console.log(`stage 3`);
+        break;
+    }
+}
