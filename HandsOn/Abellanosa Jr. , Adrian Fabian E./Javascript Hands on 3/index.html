@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <label for="studentName" class="form-label">Student Name</label>
+    <input type="text" id="studentName" class="form-control" onchange="displayStudentname()">
+    <p class ="my-2" id="displayName">Student Name Here</p>
+        <div class="d-flex flex-column">
+        <input type="number" id="subject1" placeholder="subject 1" class="col col-2 my-1"> 
+        <input type="number" id="subject2" placeholder="subject 2" class="col col-2 my-1"> 
+        <input type="number" id="subject3" placeholder="subject 3" class="col col-2 my-1"> 
+        <input type="number" id="subject4" placeholder="subject 4" class="col col-2 my-1"> 
+        <input type="number" id="subject5" placeholder="subject 5" class="col col-2 my-1"> 
+        <input type="number" id="subject6" placeholder="subject 6" class="col col-2 my-1"> 
+        <input type="number" id="subject7" placeholder="subject 7" class="col col-2 my-1">       
+        <input type="number" id="subject8" placeholder="subject 8" class="col col-2 my-1"> 
+        <button type="button" class="btn btn-primary col col-2 m-2" onclick="getAverage()">Get average</button>
+        <button type="button" class="btn btn-primary col col-2 m-2" onclick="displayFailedSubjects()">Get Failed Subjects</button>
+        <button type="button" class="btn btn-primary col col-2 m-2" onclick="displayPassedSubjects()">Get Passed Subjects</button>
+        <button type="button" class="btn btn-primary col col-2 m-2" onclick="ComputeGrade()">Compute Grade</button>
+        </div>
+        
+        
+   
+    
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JavaScriptHO3.js"></script>
+</body>
+</html>
