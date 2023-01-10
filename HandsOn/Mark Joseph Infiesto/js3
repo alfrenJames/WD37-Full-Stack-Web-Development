@@ -59,3 +59,110 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+let studentName = document.getElementById('studName')
+
+    function inputValue(){
+        document.getElementById('header').innerHTML = studentName.value;
+    }
+
+    function computeAverge(){
+        var HTML = parseInt(document.getElementById("subjectOne").value);
+        var CSS = parseInt(document.getElementById("subjectOne").value);
+        var BOOTSTRAP = parseInt(document.getElementById("subjectOne").value);
+        var JAVASCRIPT = parseInt(document.getElementById("subjectOne").value);
+        var MYSQL = parseInt(document.getElementById("subjectOne").value);
+        var LARAVEL = parseInt(document.getElementById("subjectOne").value);
+        var ENGLISH= parseInt(document.getElementById("subjectOne").value);
+        var average = 0;
+        average = (HTML + CSS + BOOTSTRAP + JAVASCRIPT + MYSQL + LARAVEL + ENGLISH) /8
+    }
+
+    if (average <= 50) {
+        console.log(`The Average is ${average} Invalid`)
+    }
+    
+    else if (average >= 68 && average <= 69) {
+        console.log(`The Average is ${average} invalid`)
+    }
+    
+    else if (average >= 70 && average <= 74) {
+        console.log(`The Average is ${average} Remedial`)
+    }
+    
+    else if (average >= 75 && average <= 100) {
+        console.log(`The Average is ${average} Passed`)
+    }
+    
+    else if (average > 100) {
+        console.log(`The Average is ${average} Invalid`)
+    }
+
+    // let mathGrade = math <= 74 ? `Mathematics subject is failed ${math}` : `Mathematics subject is passed ${math}`;
+
+    let htmlGrade = HTML <= 74 ? `Html subject is failed ${html}` : `Html subject is passed ${html}`;
+    let cssGrade = CSS <= 74 ? `Css subject is failed ${css}` : `Css subject is passed ${css}`;
+    let bootStrapGrade = BOOTSTRAP <= 74 ? `Bootstrap subject is failed ${Bootstrap}` : `Bootstrap subject is passed ${bootstrap}`;
+    let javascriptGrade = JAVASCRIPT <= 74 ? `Javascript subject is failed ${Javascript}` : `Javascript subject is passed ${javascript}`;
+    let mySqlGrade = MYSQL <= 74 ? `MySql subject is failed ${Mysql}` : `MySQL subject is passed ${mysql}`;
+    let laravelGrade = LARAVEL <= 74 ? `Laravel subject is failed ${laravel}` : `LARAVEL subject is passed ${laravel}`;
+    let englishGrade = ENGLISH <= 74 ? `English subject is failed ${english}` : `English subject is passed ${english}`;
+
+    console.log(htmlGrade)
+    console.log(cssGrade)
+    console.log(bootStrapGrade)
+    console.log(javascriptGrade)
+    console.log(mySqlGrade)
+    console.log(laravelGrade)
+    console.log(englishGrade)
+    
+    function getFailedGrade(){
+    
+   var htmlGrade = parseInt(document.getElementById("subjectOne").value);
+   var cssGrade = parseInt(document.getElementById("subjectTwo").value);
+   var bootStrapGrade = parseInt(document.getElementById("subjectThree").value);
+   var javascriptGrade = parseInt(document.getElementById("subjectFour").value);
+   var mySqlGrade= parseInt(document.getElementById("subjectFive").value);
+   var laravelGrade = parseInt(document.getElementById("subjectSix").value);
+   var englishGrade = parseInt(document.getElementById("subjectSeven").value);
+
+
+    var subjects = [ `html ${html} , CSS ${css} , bootstrap ${bootstrap}, Javascript ${javascript}, mySql
+    ${mySql}, laravel ${laravel}, english ${english},`]
+
+
+   var subjects = [ html , css , bootstrap, javascript,
+   mysql, laravel, english,]
+
+ let htmlGrade = math <= 75 ? `html subject is failed ${html}` : 'html subject is passed ${html}';
+ let cssGrade = philosophy <= 75 ? `css subject is failed ${css}` :  `CSS subject is passed ${css}`;
+ let javascriptGrade = javascript <= 75 ? `Javascript subject is failed ${javascript}` :  `Javascript subject is passed ${javascript}`;
+ let mySqlGrade = css <= 75 ? `mysql subject is failed ${mysql}` : `mysql subject is passed ${mysql}`;
+ let laravelGrade = html <= 75 ? `HTML subject is failed ${html}` :  `laravel subject is passed ${laravel}`;
+ let englishGrade = react <= 75 ? `english subject is failed ${english}` : `english subject is passed ${english}`;
+
+ console.log(htmlGrade)
+ console.log(cssGrade)
+ console.log(bootGrade)
+ console.log(jsGrade)
+ console.log(mySqlGrade)
+ console.log(laravelGrade)
+ console.log(englishGrade)
+
+  }
+
+
+
+
+
+    function computeGrade() {
+        inputValue();
+        computeAverge();
+        alert(studentName.value)
+    
+     }
+    
+    
+    
