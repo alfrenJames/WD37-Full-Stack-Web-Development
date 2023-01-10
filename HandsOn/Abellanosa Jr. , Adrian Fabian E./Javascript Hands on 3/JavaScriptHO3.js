@@ -78,10 +78,10 @@ function displayFailedSubjects(){
     getFailedGrade('sub2',sub2);
     getFailedGrade('sub3',sub3);
     getFailedGrade('sub4',sub4);
-    getFailedGrade('sub5',sub4);
-    getFailedGrade('sub6',sub4);
-    getFailedGrade('sub7',sub4);
-    getFailedGrade('sub8',sub4);
+    getFailedGrade('sub5',sub5);
+    getFailedGrade('sub6',sub6);
+    getFailedGrade('sub7',sub7);
+    getFailedGrade('sub8',sub8);
     console.log(`Failed On:\n ${fSubjects}`);
 }
 
@@ -101,10 +101,10 @@ function displayPassedSubjects(){
     getPassedGrade('sub2',sub2);
     getPassedGrade('sub3',sub3);
     getPassedGrade('sub4',sub4);
-    getPassedGrade('sub5',sub4);
-    getPassedGrade('sub6',sub4);
-    getPassedGrade('sub7',sub4);
-    getPassedGrade('sub8',sub4);
+    getPassedGrade('sub5',sub5);
+    getPassedGrade('sub6',sub6);
+    getPassedGrade('sub7',sub7);
+    getPassedGrade('sub8',sub8);
     console.log(`Passed On:\n ${fSubjects}`);
 }
 
