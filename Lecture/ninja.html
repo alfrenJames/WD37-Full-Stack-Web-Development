@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+div.bg {
+  background-color: rgba(211, 211, 211, 0.336);
+  width: 215px;
+  height: 250px;
+  border: 20px solid green;
+  padding: 150px;
+  margin: -5px;
+  top:100px;
+  right:450px;
+}
+</style>
+</style>	
+</head>
+<body>
+	<div class=bg></div>>
+	<div id='background'>
+        <div id='character' style='position:absolute; top:100px; left:450px; background-image: url("img/down1.png"); width:59px; height:86px;'></div>
+    </div>
+    <script type="text/javascript">
+	    var leftValue = 450, topValue = 100, direction='down';
+
+    	function update(){
+    		document.getElementById("character").style.left = leftValue+"px";
+    		document.getElementById("character").style.top = topValue+"px";
+			document.getElementById("character").style.backgroundImage="url('img/"+direction+"1.png')";
+		}
+
+    	document.onkeydown = function(e){
+    		console.log(e);
+    		if(e.keyCode == 37 && leftValue>0) { // LEFT
+				leftValue = leftValue - 10;
+				direction='left';
+    		}
+    		else if (e.keyCode == 39 && leftValue<500) { // RIGHT
+				leftValue = leftValue + 10;
+				direction='right';    		
+    		}
+    		else if (e.keyCode == 40  && topValue<500) { // DOWN
+				topValue = topValue + 10;
+				direction='down';
+    		}
+			
+			else if (e.keyCode == 38 && topValue>0 ) { // UP
+				topValue = topValue - 10;
+				direction='top';
+    		}
+    		update();
+    	}
+    </script>
+</body>
+</html>
+
