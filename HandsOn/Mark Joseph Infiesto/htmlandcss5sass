@@ -957,3 +957,139 @@
     </div>
 </body>
 </html>
+
+
+
+body {
+    font-family: Arial;
+  }
+div.container {
+    width: 1500px;
+    height: 850px;
+}
+    div.row {
+        height: 70px;
+        margin-top: 5px;
+    }
+        div.cell {
+            display: inline-block;
+            width: 74.6px;
+            height: 100%;
+            vertical-align: top;
+            text-align: center;
+        }
+        div.cell:hover .element {
+            border-color: rgba(0, 0, 0, 0.1);
+            background-color: rgba(197, 70, 70, 0.9);
+        }
+            div.element {
+                border: 1px solid rgba(184, 122, 122, 0.05);
+                text-align: center;
+                background-color: rgba(210, 21, 235, 0.6);
+            }
+                div.element p.num {
+                    font-size: 12px;
+                    margin: 0px 2px 0px 0px;
+                    text-align: right;
+                }
+                div.element p.symbol {
+                    font-size: 24px;
+                    margin: 0px;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+                div.element p.detail {
+                    font-size: 10px;
+                    margin: 5px 0px 0px 0px;
+                }
+                
+                
+                
+                
+                
+                body {
+  font-family: Arial;
+}
+
+.container {
+  width: 1500px;
+  height: 850px;
+}
+.container .row {
+  height: 70px;
+  margin-top: 5px;
+}
+.container .row .cell {
+  display: inline-block;
+  width: 74.6px;
+  height: 100%;
+  vertical-align: top;
+  text-align: center;
+}
+.container .row .cell:hover .element {
+  border-color: rgba(255, 4, 4, 0.1);
+  background-color: rgb(151, 162, 165);
+}
+.container .row .cell:hover .element .element {
+  border: 1px solid rgba(194, 185, 185, 0.05);
+  text-align: center;
+  background-color: rgba(82, 247, 17, 0.6);
+}
+.container .row .cell:hover .element p.num {
+  font-size: 12px;
+  margin: 0px 2px 0px 0px;
+  text-align: right;
+}
+.container .row .cell:hover .element p.num p.symbol {
+  font-size: 24px;
+  margin: 0px;
+  color: rgba(2, 2, 2, 0.9);
+}
+.container .row .cell:hover .element p.num p.symbol p.detail {
+  font-size: 10px;
+  margin: 5px 0px 0px 0px;
+}/*# sourceMappingURL=styles.css.map */
+
+
+
+body {
+    font-family: Arial;
+  }
+
+  .container {
+    width: 1500px;
+    height: 850px;
+    .row {
+        height: 70px;
+        margin-top: 5px;
+        .cell {
+            display: inline-block;
+            width: 74.6px;
+            height: 100%;
+            vertical-align: top;
+            text-align: center;
+            &:hover .element {
+                border-color: rgba(255, 4, 4, 0.1);
+                background-color: rgb(28, 28, 43);
+                .element {
+                    border: 1px solid rgba(0, 0, 0, 0.05);
+                    text-align: center;
+                    background-color: rgba(82, 247, 17, 0.6);
+                }
+                p.num {
+                    font-size: 12px;
+                    margin: 0px 2px 0px 0px;
+                    text-align: right;
+                    p.symbol {
+                        font-size: 24px;
+                        margin: 0px;
+                        color: rgba(2, 2, 2, 0.9);
+                        p.detail {
+                            font-size: 10px;
+                            margin: 5px 0px 0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
