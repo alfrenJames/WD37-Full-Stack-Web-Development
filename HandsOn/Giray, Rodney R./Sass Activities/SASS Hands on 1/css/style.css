@@ -1,0 +1,123 @@
+.redColumn {
+  width: 120px;
+  min-height: 150px;
+  margin-left: 6px;
+  display: inline-block;
+  vertical-align: top;
+}
+.redColumn h5 {
+  background-color: red;
+}
+
+.blueRow {
+  width: 352px;
+  min-height: 150px;
+  margin-left: -14px;
+  display: inline-block;
+  vertical-align: top;
+}
+.blueRow h5 {
+  background-color: rgb(52, 52, 235);
+}
+
+.pinkrows {
+  width: 600px;
+  min-height: 150px;
+  margin-left: -6px;
+  display: inline-block;
+  vertical-align: top;
+}
+.pinkrows h5 {
+  background-color: rgb(236, 165, 233);
+}
+
+.blackRows {
+  width: 893px;
+  min-height: 150px;
+  margin-left: 169px;
+  display: inline-block;
+  vertical-align: top;
+}
+.blackRows h5 {
+  background-color: black;
+  color: white;
+}
+.blackRows h6 {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  vertical-align: top;
+}
+
+#hide {
+  background-color: white;
+  border: 0px;
+  width: 15px;
+  height: 15px;
+}
+
+h5 {
+  height: 13px;
+  width: 13px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.blackRows #actinoids {
+  padding-right: 14px;
+}
+
+/* .header h5{
+
+        color: rgb(0, 0, 0);
+        height: 15px;
+        width: 15px;
+        margin-top: 0px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 20px;
+        border: 0px;
+    } */
+/* .sideNumbers 
+{
+    width: 55px;
+    min-height: 150px;
+    margin-left: 53px;
+    display: inline-block;
+    vertical-align: top;
+} */
+/* .sideNumbers h5
+{
+    color: rgb(0, 0, 0);
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border: 0px;
+} */
+/* .redColumn h5
+{   
+
+background-color: rgb(180, 11, 62);
+
+} */
+/* .pinkrows h5
+{
+background-color: rgb(235, 140, 212);
+
+} */
+/* .blackRows h5
+{
+    background-color: rgb(0, 0, 0);
+
+} *//*# sourceMappingURL=style.css.map */
