@@ -1,46 +1,47 @@
-//import modules
+//import 
 const express = require('express');
-// module of express use for routing
-const dataRouter = express.Router();
+const empRecordsRouter = express.Router();
 
-let records = [
-    {id: 1, name: 'JP' , jobTitle: 'Web Dev'},
-    {id: 2, name: 'Alfren' , jobTitle: 'Web Designer'},
-    {id: 3, name: 'Jose' , jobTitle: 'Soft Eng'}
-]
-//get all records
-dataRouter.get('/',(req, res) =>{
-    //res.send(`<h1>Hi Im From The server 👀🦾</h1>`);
-    res.status(200).send(records);
-})
+// array of object to represent JSON
+let empRecords = [
+{id: 1, name: 'Jose', position: 'Web Dev', salary: 30000, isActive: true},
+{id: 2, name: 'JP', position: 'Web Dev', salary: 35000, isActive: false},
+{id: 3, name: 'Elsa', position: 'Web Dev', salary: 35000, isActive: true}
+];
 
-//get record by id
-dataRouter.get('/:id', (req, res)=>{
-let check = records.find((item)=>{
- return item.id === parseInt(req.params.id);
-});
-if(check){
-    res.status(201).send(check);
-}else{
-    res.status(404).send('No Record Found');
-}
+//get all data
+//localhost:8000/records/getallEmp
+empRecordsRouter.get('/getallEmp', (req, res)=>{
+    res.status(200).json(empRecords);
+    console.log(empRecords);
+    console.log('getting all emp records is successful!');
 });
 
-// dataRouter.get("/test", (req,res)=>{
-//  let paramTest = req.params.name;
-//  console.log(paramTest);
-//  res.send('all goods');
-// });
-
-// add new data
-dataRouter.post('/addData', (req ,res)=>{
-let body = req.body;
-console.log(req.params);
-res.status(200).send('got the info from params');
-///let param = req.params;
-//records.push(body);
-//res.status(200).send('param successfully added');
+//get by id
+//localhost:8000/records/getallEmp/id
+empRecordsRouter.get('/getallEmp/:id', (req, res)=>{
+    let check =  empRecords.find((empId)=>{
+        return empId.id === parseInt(req.params.id)
+    });
+    //verify if id exist
+    if(check){
+        res.status(200).json(check);
+        console.log('Id was Search');
+    }else{
+        res.status(400).send('Id does not Exist');
+        console.log('Id not found');
+    }
 });
 
-//export module 
-module.exports = dataRouter;
+// add new emp records
+//localhost:8000/records/postNewRecord
+empRecordsRouter.post('/postNewRecord', (req, res)=>{
+    //res.status(201).send('get data from body');
+    let param = req.query;
+    let body = req.body;
+    res.status(201).send('get data from param');
+    empRecords.push(body);
+    console.log("added new Record: ",body);
+});
+
+module.exports = empRecordsRouter;
