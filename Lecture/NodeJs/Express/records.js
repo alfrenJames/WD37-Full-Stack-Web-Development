@@ -40,8 +40,39 @@ empRecordsRouter.post('/postNewRecord', (req, res)=>{
     let param = req.query;
     let body = req.body;
     res.status(201).send('get data from param');
-    empRecords.push(body);
-    console.log("added new Record: ",body);
+    empRecords.push(param);
+    console.log("added new Record: ",param);
+});
+//update record by id
+////localhost:8000/records/putEmpRecordById/id 
+empRecordsRouter.put('/putEmpRecordById/:id', (req, res)=>{
+    let paramId = +req.params.id
+    let body = req.body
+    let index = empRecords.findIndex((emp)=> emp.id===paramId);
+    if(index>=0){
+        let updateEmpRecord = {id: paramId, ...body};
+        empRecords[index] = updateEmpRecord;
+        res.status(201).json(updateEmpRecord);
+        console.log(`id: ${paramId} was updated!`);
+    }else{
+        res.status(404).send('Id does not Exist!');
+    }
+
+    });
+//delete by id
+//localhost:8000/records/deleteEmpRecordById/id 
+empRecordsRouter.delete('/deleteEmpRecordById/:id', (req, res)=>{
+    let paramId = +req.params.id
+    let index = empRecords.findIndex((emp)=> emp.id===paramId);
+    if(index>=0){
+        empRecords.splice(index, 1);
+        res.status(201).json(empRecords);
+        console.log(`id: ${paramId} was deleted!`);
+    }else{
+        res.status(404).send('Id does not Exist!');
+    }
+    // res.status(201).send(`I got the ${req.params}`);
+    // console.log('working');
 });
 
 module.exports = empRecordsRouter;
