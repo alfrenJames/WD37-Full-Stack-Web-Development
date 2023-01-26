@@ -1,24 +1,19 @@
-//import modules
+//import 
 const express = require('express');
-const bodyParser = require('body-parser');
-const routes = require('./routes/record');
 const app = express();
-
-//middleware(interpreter)
+const empRecordsRouter = require('./routes/routerRecordEmp');
+//middleware
 app.use(express.json());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.urlencoded({extended: true}));
 
+let name = 'alfren';
 //routes
-app.use('/record', routes);
-// app.get() //get data
-// app.post() //add data
-// app.patch() // udpdate data
-// app.put()
-// app.delete() //delete data
-
-//checking of server connection
-const port=8080;
+// app.get('/records', (req, res)=>{
+//     res.send(`<h1> This is from server response hi! ${name}</h1>`);
+// });
+app.use('/records', empRecordsRouter);
+//check if my server is working
+let port = 8000;
 app.listen(port, ()=>{
- console.log(`The server is running at port: ${port}`);
+ console.log(`The server is now running in the port: ${port}`);
 });
