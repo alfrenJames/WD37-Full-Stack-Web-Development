@@ -47,6 +47,7 @@ function detailsPost(userPost){
         }, 1000);
     })
 }
+//calling the functions using callbacks
 // userLogin('alfren', '123', loginCallBack=>{
 //     console.log(loginCallBack);
 //     userDetails(loginCallBack.userName, userDetailsCallBack =>{
@@ -60,6 +61,7 @@ function detailsPost(userPost){
 //         })
 //     })
 // })
+//calling the function using promise then
 // userLogin('alfren', '123')
 // .then(user=>{
 //     console.log(user);
@@ -76,7 +78,7 @@ function detailsPost(userPost){
 //     console.log(postDetials);
 // })
 // })
-
+//calling the functions using async await
 async function display(){
 const user = await userLogin('alfren', '123');
 const detailsOfUser = await userDetails(user);
