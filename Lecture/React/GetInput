@@ -1,0 +1,29 @@
+import React from 'react'
+import { useState } from 'react'
+const GetInput = () => {
+//Js Function goes here    
+//initialized input item
+const [input, setInput] = useState(0);
+//function to get data
+const getData =(event)=>{
+    let userInput = event.target.value;
+    const squarePerimeter =  userInput * 4
+    setInput(squarePerimeter);
+    //check if we can get the value
+    console.log(event.target.value)
+}
+//function that will capture the inputbox
+const showInput = () =>{
+    alert(`The Perimeter of Square: ${input}`);
+}
+    return (
+    <section>
+        <p>Perimeter of Square: {input}</p>
+        <input onChange={getData} className='d-block' type="text" placeholder='Enter Side Length of Square'/>
+        <button className='btn btn-info'>Enter Side of Square</button>
+        <button className='btn btn-dark' onClick={showInput}>Display Value</button>
+    </section>
+  )
+}
+
+export default GetInput
