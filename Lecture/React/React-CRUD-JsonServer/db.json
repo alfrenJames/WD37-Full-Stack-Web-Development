@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "id": 1001,
+      "name": "Charles",
+      "email": "charles@kodego.com",
+      "title": "Web Dev",
+      "mobile": "0912356478",
+      "photo": "https://mysalonsoftware.co.za/wp-content/uploads/2019/08/avatar-user-hacker-3830b32ad9e0802c-512x512.png",
+      "companyName": "KodeGo",
+      "department": "Executive"
+    },
+    {
+      "id": 1002,
+      "name": "Reka",
+      "email": "reka@kodego.com",
+      "title": "Frontend Dev",
+      "mobile": "0912356478",
+      "photo": "https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png",
+      "companyName": "KodeGo",
+      "department": "ICT"
+    },
+    {
+      "id": 1003,
+      "name": "Tristan",
+      "email": "tristan@kodego.com",
+      "title": "Software Eng",
+      "mobile": "0912356478",
+      "photo": "https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png",
+      "companyName": "KodeGo",
+      "department": "Marketing"
+    },
+    {
+      "name": "Mark Joseph",
+      "email": "mark@kodego.ph",
+      "title": "Front End Dev",
+      "mobile": "132434",
+      "photo": "http://pluspng.com/img-png/png-user-icon-icons-logos-emojis-users-2400.png",
+      "companyName": "KodeGo",
+      "department": "",
+      "id": 1004
+    },
+    {
+      "name": "Liza",
+      "email": "liza@kodego.ph",
+      "title": "Soft Eng",
+      "mobile": "12124343",
+      "photo": "https://static.vecteezy.com/system/resources/previews/000/376/355/original/user-management-vector-icon.jpg",
+      "companyName": "Microsoft",
+      "department": "Executive",
+      "id": 1005
+    }
+  ],
+  "department": [
+    {
+      "id": 1,
+      "departmentName": "Marketing"
+    },
+    {
+      "id": 2,
+      "departmentName": "Executive"
+    },
+    {
+      "id": 3,
+      "departmentName": "Finance"
+    },
+    {
+      "id": 4,
+      "departmentName": "HR"
+    },
+    {
+      "id": 5,
+      "departmentName": "ICT"
+    }
+  ]
+}
