@@ -1,0 +1,89 @@
+1. Create a query to gell all employees who have more than 25 years of experienced.
+
+SELECT	* FROM	employee WHERE	YEAR ( CURRENT_DATE )- YEAR ( HireDate ) > 25
+
+2. Create a query to gell employees whose names are more than 5 character long.
+
+SELECT	* FROM	employee WHERE	CHAR_LENGTH(EmpName) > 5
+
+3. Create a query to display total salary combined with commission of all employees.
+
+SELECT	SUM(Salary) + SUM(Commission) FROM employee
+
+4. Create a query to display annual salary of all employees.
+
+SELECT	EmpName, Job, Salary, Salary*12 as 'Annual Salary' FROM employee
+
+5. Create a query to display current Date.
+
+SELECT	CURRENT_DATE() as 'Date'
+
+6.Create a query to get all employees who don't get commission.
+
+SELECT	* FROM employee WHERE Commission IS NULL
+
+7. Create a query to get all employees whose name contains character 'a'
+
+SELECT	* FROM employee WHERE EmpName LIKE '%a%'
+
+8. Create a query to Get All employees working with the president whose name end with 'o'.
+
+SELECT	* FROM employee WHERE Mgr = 1001 AND EmpName LIKE '%o'
+
+9. Create a query to Get the Min , Max and Average Salary of all the employees.
+
+SELECT MIN(Salary), MAX(Salary), AVG(Salary) FROM employee
+
+10. Create a query to get the department details of employees working at BGC.
+
+SELECT * FROM employee,department where employee.DeptID = department.DeptID and department.Location = 'BGC'
+
+11. Create a query to Get the Min , Max and Average Salary of all the employees working in Marketing Department.
+
+SELECT MIN(Salary), MAX(Salary), AVG(Salary) FROM employee WHERE DeptID = 1005
+
+12. Create a query to get the deparment wise maximum, minimum and average salary on employee table(Hint: use Inner Join).
+
+SELECT
+	employee.DeptID,
+	department.DepName,
+	MIN( employee.Salary ),
+	MAX( employee.Salary ),
+	AVG( employee.Salary ) 
+FROM
+	employee
+	INNER JOIN department ON employee.DeptID = department.DeptID 
+GROUP BY
+	DeptID
+
+13. Create a query to count total number of employees.
+
+SELECT COUNT(EmpNo) FROM employee
+
+14. Create a query to display distinct salaries in employee table.
+
+SELECT DISTINCT Salary FROM employee
+
+15. Create a query to get all employees whose names length is greater than 3 character and less than 5.
+
+SELECT	* FROM	employee WHERE	CHAR_LENGTH(EmpName) > 3 AND CHAR_LENGTH(EmpName) < 5 
+
+16. Create a query to get all employees who are getting salary 2000, 3000, 4000, 5000.
+
+SELECT	* FROM	employee WHERE	Salary = 2000 OR Salary = 3000 OR Salary = 4000 OR Salary = 5000
+
+17. Create a query to get the top 5 highest paid employee.
+
+SELECT	* FROM	employee ORDER BY Salary DESC LIMIT 5
+
+18. Create a query to get the least 5 salaries of employee table.
+
+SELECT	* FROM	employee ORDER BY Salary ASC LIMIT 5
+
+19. Create a query to get the total no departments in the organization.
+
+SELECT	COUNT(DeptID) FROM department
+
+20. Create a query to get the Highest paid department with the average salary.
+
+SELECT DeptID, MAX(max_salary) from (Select DeptID, AVG(Salary) as max_salary from employee GROUP BY DeptID) As maximum_sal
