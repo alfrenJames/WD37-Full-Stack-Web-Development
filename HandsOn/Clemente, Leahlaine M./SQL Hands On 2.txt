@@ -1,0 +1,40 @@
+1.
+SELECT * FROM employee
+WHERE Mgr = 1001;
+
+
+2.
+SELECT * FROM employee
+WHERE Job = 'Manager';
+
+3.
+SELECT * FROM `employee` 
+WHERE Salary > 2500;
+
+4.
+SELECT * FROM `employee` 
+WHERE Mgr IS NULL;
+
+5.
+SELECT * FROM `employee` 
+WHERE DeptID=1002;
+
+6.
+SELECT * FROM `employee` 
+WHERE DeptID=1003;
+
+7.
+SELECT * FROM `employee` 
+WHERE Salary > 2500 AND Salary < 5000;
+
+8.
+SELECT * FROM `employee` 
+WHERE Job IN ('Salesman', 'Clerk');
+
+9.
+SELECT * FROM `employee` 
+WHERE HireDate = '1979-03-01';
+
+10.
+SELECT * FROM `employee` 
+WHERE HireDate > '1979-03-01';
