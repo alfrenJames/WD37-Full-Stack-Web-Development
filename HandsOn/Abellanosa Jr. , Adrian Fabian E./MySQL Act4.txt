@@ -1,0 +1,10 @@
+1.SELECT employee.EmpName, department.DeptName FROM employee INNER JOIN department ON employee.DeptID = department.DeptID;
+2.SELECT * FROM employee WHERE Salary = (SELECT MIN(Salary) From employee);
+3.SELECT d.DeptID, d.DeptNAme, AVG(e.Salary) as Ave_Salary FROM employee e INNER JOIN department d ON e.DeptID = d.DeptID GROUP BY d.DeptID HAVING Ave_Salary > 2500;
+4.SELECT d.DeptName, COUNT(e.EmpNo) FROM employee e INNER JOIN department d ON e.DeptID = d.DeptID GROUP BY d.DeptName;
+5.SELECT e.EmpName as Employee_Name, d.DeptName as Department, d.Location From employee e INNER JOIN department d ON e.DeptID = d.DeptID;
+6.SELECT e.EmpName AS 'Employee Name',  m.EmpName as 'His/Her Manager' FROM employee e LEFT JOIN employee m ON e.Mgr = m.EmpNo;
+7.SELECT COUNT(EmpNo) FROM employee WHERE HireDAte = '1978-01-01';
+8.SELECT d.DeptName, SUM(e.Salary) FROM employee e INNER JOIN department d on e.DeptID = d.DeptID GROUP BY d.DeptName ORDER BY e.Salary ASC;
+9.SELECT e.EmpName, d.DeptName FROM employee e LEFT JOIN department d ON e.DeptID = d.DeptID;
+10.SELECT e.EmpName, d.DeptName FROM employee e RIGHT JOIN department d on e.DeptID = d.DeptID;
