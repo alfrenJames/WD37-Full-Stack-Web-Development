@@ -19,3 +19,18 @@ php artisan serve
 
 composer require laravel/ui --dev
 php artisan ui bootstrap --auth
+
+//Create bootstrap module + authentication 
+composer create-project laravel/laravel example-app
+// Laravel ui - that will allow to add bootstrap
+composer require laravel/ui --dev
+//bootstarp scaffolding this install latest bootstrap 
+php artisan ui bootstrap --auth
+//add bootstrap dependencies like icons 
+npm install bootstrap icons --save-dev
+//create database 
+php artisan migrate
+// finalize the changes 
+npm install 
+npm run dev 
+
