@@ -1,0 +1,31 @@
+main{
+    height: 100vh;
+    background-color: rgb(8, 99, 99);
+    color: rgb(232, 236, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 200px;
+}
+ul,li{
+    display: flex;
+    margin-left: 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: large;
+}
+section{
+    display: flex;
+    color: black;
+}
+section img{
+    height: 100px;
+    width: 100px;
+}
