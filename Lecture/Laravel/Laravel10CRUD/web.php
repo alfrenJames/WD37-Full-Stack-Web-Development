@@ -2,5 +2,5 @@
 // create routes by adding controller 
 //use php artisan make:controller CompanyName
 use App\Http\Controllers\<controllerName>;
- 
-Route::resource('companies', <controllerName>::class);
+ //define your route for example CRUD for Employees Record 'employees'
+Route::resource('yourRoute', <controllerName>::class);
