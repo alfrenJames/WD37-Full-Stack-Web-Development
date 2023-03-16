@@ -32,5 +32,15 @@ npm install bootstrap icons --save-dev
 php artisan migrate
 // finalize the changes 
 npm install 
-npm run dev 
+npm run dev
+
+//create model 
+// -m will create database migration
+php artisan make:model <modelName> -m 
+
+//to excute your migration 
+php artisan migrate
+//seed the database
+php artisan seed
+
 
