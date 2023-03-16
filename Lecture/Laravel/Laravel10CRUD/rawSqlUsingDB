@@ -1,0 +1,12 @@
+use Illuminate\Support\Facades\DB;
+
+Route::get('/', function () {
+    $test = DB::select('INSERT INTO test(name, address) VALUES (?,?)',
+[
+    "Alon",
+    "Quezon City"
+]);
+    $selectName = DB::select('CALL SelectName(?)',["Juan"]);
+
+    dd($selectName);
+});
