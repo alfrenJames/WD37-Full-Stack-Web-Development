@@ -43,4 +43,39 @@ php artisan migrate
 //seed the database
 php artisan seed
 
+//how to integrate authentication using breeze
+1. create laravel Project
 
+2. create mailtrap or other email platforms https://mailtrap.io/ 
+->add inbox
+->click created inbox->stmp settings->change integrations->laravel 7+
+copy the integration
+MAIL_MAILER=
+MAIL_HOST=
+MAIL_POST=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=
+go .env file update mailer settings
+
+3.//go documentation 
+https://laravel.com/docs/10.x/starter-kits
+//install breeze via composer
+composer require laravel/breeze --dev
+
+4.//scafold breeze auhtentication, migrate the database, install the chanages and build the project
+php artisan breeze:install
+php artisan migrate
+npm install
+npm run build
+
+5.edit user model
+add implements MustVerifyEmail
+
+6.run the project
+php artisan serve
+
+7. add link for registraion route in login page
+{{route('register')}}
+
+8.try to add user and other auth functionalities.
